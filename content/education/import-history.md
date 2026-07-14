@@ -129,16 +129,11 @@ picture and flag where popular retellings diverge.
 
 ## Timeline
 
-- **1976** — First Japanese bulls (incl. the seed Akaushi) reach the United States.
-- **1993** — Mannet's first fullblood shipment (Michifuku, Haruki 2, Suzutani, Okutani,
-  Rikitani); Mannet builds a USDA/MAFF-approved quarantine barn.
-- **1993** — Bruce Hemmingsen and Yukio Kurosawatsu, with Kumamoto's blessing, select the
-  Akaushi; the Reds share Mannet's quarantine. Big Al, Kaedemaru, and Momigimaru are bred
-  in quarantine.
-- **1993–94** — The O'Hara / WSU lawsuit settles in Seattle (Rikitani, Kanadagene
-  pregnancies, Patty, semen). Wagyu Sekai buys the first pregnancies; Wally Rea / Overflow
-  secures the first fullblood genetics into Australia.
-- **Mid-1990s** — Kenhanafuji's rights sell to Eiji Funatsuki for $150,000; Naomi, Dai 3
-  Namiaki Ni, and Rikitani are destroyed in Canada for BSE testing.
-- **After** — The JVP shipment brings the reds Kunisakae and Dai 27 Homare; Englewood
-  becomes HeartBrand.
+<div class="timeline">
+<div class="tl-item"><div class="tl-year">1976</div><div class="tl-body">First Japanese bulls — including the seed Akaushi — reach the United States.</div></div>
+<div class="tl-item"><div class="tl-year">1993</div><div class="tl-body">Mannet's first fullblood shipment (Michifuku, Haruki 2, Suzutani, Okutani, Rikitani); Mannet builds a USDA/MAFF-approved quarantine barn.</div></div>
+<div class="tl-item"><div class="tl-year">1993</div><div class="tl-body">Bruce Hemmingsen and Yukio Kurosawatsu, with Kumamoto's blessing, select the Akaushi; the Reds share Mannet's quarantine. Big Al, Kaedemaru and Momigimaru are bred in quarantine.</div></div>
+<div class="tl-item"><div class="tl-year">1993–94</div><div class="tl-body">The O'Hara / WSU lawsuit settles in Seattle (Rikitani, the Kanadagene pregnancies, Patty, semen). Wagyu Sekai buys the first pregnancies; Wally Rea / Overflow secures the first fullblood genetics into Australia.</div></div>
+<div class="tl-item"><div class="tl-year">Mid-1990s</div><div class="tl-body">Kenhanafuji's rights sell to Eiji Funatsuki for $150,000 — the highest-selling Wagyu in the world at the time. Naomi, Dai 3 Namiaki Ni and Rikitani are destroyed in Canada for BSE testing.</div></div>
+<div class="tl-item"><div class="tl-year">After</div><div class="tl-body">The JVP shipment brings the reds Kunisakae and Dai 27 Homare; Englewood becomes HeartBrand.</div></div>
+</div>

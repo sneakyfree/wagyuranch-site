@@ -3,7 +3,7 @@ name: "Kenhanafuji"
 reg_no: "FB2461"
 tattoo: "57"
 breed: "black"
-tagline: "The highest-selling Wagyu bull of all time — 'The International Bull of Mystery.'"
+tagline: "For more than two decades, the highest-selling Wagyu ever sold — 'The International Bull of Mystery.'"
 youtube_ids: ["wRnDeUd1erQ"]
 birth_date: "1993-12-16"
 breed_composition: "~75% Fujiyoshi / ~25% Kedaka — ZERO Tajima"
@@ -15,11 +15,11 @@ hero: "/img/foundation/FB2461.jpg"
 
 # Kenhanafuji (FB2461) — The International Bull of Mystery
 
-*THE High-Selling Wagyu Bull of ALL TIME.*
+*When he sold, the highest-selling Wagyu ever — and he held that title for more than two decades.*
 
-Kenhanafuji was one of the most promising young bulls Japan had ever produced when he was snatched away by US investors in the early 1990s and exported to America. *"Right away when we saw that bull in Japan we knew he was the one we had to get!"* — **Bruce Hemmingsen, Ultimate Kobe Beef.**
+Kenhanafuji was one of the most promising young bulls Japan had ever produced when he was snatched away by US investors in the early 1990s and exported to America. His $150,000 sale made him the highest-selling Wagyu in the world at the time — a record that would stand for over twenty years before the rare modern sale finally surpassed it. *"Right away when we saw that bull in Japan we knew he was the one we had to get!"* — **Bruce Hemmingsen, Ultimate Kobe Beef.**
 
-We have been unable to locate any existing photograph of Kenhanafuji — a curious oddity fitting for the "International Bull of Mystery." (The reference video is of a full-blood black Kenhanafuji son in Brazil, verified to carry no red/Akaushi or commercial blood — a jet-black full-blood.)
+Photographs of Kenhanafuji are exceedingly rare — fitting for the "International Bull of Mystery." (The reference video is of a full-blood black Kenhanafuji son in Brazil, verified to carry no red/Akaushi or commercial blood — a jet-black full-blood.)
 
 ## The bull
 

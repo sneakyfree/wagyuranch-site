@@ -1,22 +1,5 @@
 {
- "kenhanafuji": [
-  {
-   "url": "/img/kitaguni-jr-5-8-brother.jpg",
-   "alt": "Kitaguni Jr, a 5/8 brother to Kenhanafuji"
-  },
-  {
-   "url": "/img/kenhanafuji-ref-a.jpg",
-   "alt": "Kenhanafuji reference photo"
-  },
-  {
-   "url": "/img/kenhanafuji-ref-b.jpg",
-   "alt": "Kenhanafuji pedigree reference photo"
-  },
-  {
-   "url": "/img/kenhanafuji-ref-c.jpg",
-   "alt": "Kenhanafuji reference photo"
-  }
- ],
+ "kenhanafuji": [],
  "big-al": [
   {
    "url": "/img/big-al-prime.jpg",
@@ -39,10 +22,6 @@
   {
    "url": "/img/tajimax-c.jpg",
    "alt": "Tajimax full-blood Wagyu bull"
-  },
-  {
-   "url": "/img/tajimax-sire-reference.jpg",
-   "alt": "Tajimax sire/grandsire reference photo"
   },
   {
    "url": "/img/tajimax-e.jpg",

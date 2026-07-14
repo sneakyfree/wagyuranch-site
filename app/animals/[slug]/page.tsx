@@ -4,8 +4,10 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDoc, docSlugs } from "@/lib/content";
-import { Video } from "@/components/ui";
+import { Video, Pedigree } from "@/components/ui";
 import Gallery from "@/components/Gallery";
+import Reveal from "@/components/Reveal";
+import { Emblem } from "@/components/Emblem";
 
 function galleries(): Record<string, { url: string; alt?: string }[]> {
   const f = path.join(process.cwd(), "content", "animal_galleries.json");
@@ -36,6 +38,15 @@ export default async function AnimalPage({ params }: { params: Promise<{ slug: s
   const hero = d.hero || d.hero_photo;
   const heroUrl = hero ? (hero.startsWith("/") ? hero : `/img/${hero}`) : null;
   const gallery = (galleries()[slug] || []).filter((g) => g.url !== heroUrl);
+
+  // Pull the pedigree JSON out of the markdown → render it as a visual tree,
+  // and strip the raw code block (and its heading) from the prose.
+  let pedigree: any = null;
+  const pm = doc.raw.match(/```json\s*([\s\S]*?)```/);
+  if (pm) { try { pedigree = JSON.parse(pm[1]); } catch { pedigree = null; } }
+  const html = doc.html
+    .replace(/<pre[\s\S]*?<\/pre>/g, "")
+    .replace(/<h2[^>]*>\s*Pedigree\s*<\/h2>/gi, "");
 
   const stats: [string, string][] = [];
   const A = (k: string, v: any) => { if (v != null && v !== "") stats.push([k, String(v)]); };
@@ -75,9 +86,23 @@ export default async function AnimalPage({ params }: { params: Promise<{ slug: s
 
       <section className="section">
         <div className="narrow">
-          <article className="prose" dangerouslySetInnerHTML={{ __html: doc.html }} />
+          <Reveal><article className="prose" dangerouslySetInnerHTML={{ __html: html }} /></Reveal>
         </div>
       </section>
+
+      {pedigree && (
+        <section className="section band">
+          <Reveal className="wrap">
+            <p className="eyebrow">Pedigree</p>
+            <h2 style={{ marginBottom: "1.6rem" }}>{d.name} — three generations</h2>
+            <Pedigree tree={pedigree} title={d.name} />
+            <p style={{ marginTop: "1rem", fontFamily: "var(--sans)", fontSize: ".82rem", color: "var(--ink-faint)" }}>
+              <Emblem size={16} style={{ display: "inline", verticalAlign: "-3px", color: "var(--gold-deep)", marginRight: ".4rem" }} />
+              Registrations verifiable through the American &amp; Australian Wagyu registries.
+            </p>
+          </Reveal>
+        </section>
+      )}
 
       {gallery.length > 0 && (
         <section className="section band">

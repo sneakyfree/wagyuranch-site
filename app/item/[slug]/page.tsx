@@ -6,6 +6,7 @@ import { CATEGORY_LABELS } from "@/lib/api";
 import { BreedChip, StatusChip, Pedigree, PriceLadder, Video } from "@/components/ui";
 import { Emblem } from "@/components/Emblem";
 import Gallery from "@/components/Gallery";
+import Reveal from "@/components/Reveal";
 
 const CAT_ROUTE: Record<string, string> = {
   semen: "semen", embryo: "embryos", pregnancy: "pregnancies",
@@ -160,7 +161,7 @@ export default async function ItemPage({ params }: { params: Promise<{ slug: str
 
       {it.pedigree && (
         <section className="section band">
-          <div className="wrap">
+          <Reveal className="wrap">
             <p className="eyebrow">Pedigree</p>
             <h2 style={{ marginBottom: "1.6rem" }}>Three generations</h2>
             <Pedigree tree={it.pedigree} title={it.name} />
@@ -168,7 +169,7 @@ export default async function ItemPage({ params }: { params: Promise<{ slug: str
               <Emblem size={16} style={{ display: "inline", verticalAlign: "-3px", color: "var(--gold-deep)", marginRight: ".4rem" }} />
               Registrations verifiable through the American &amp; Australian Wagyu registries.
             </p>
-          </div>
+          </Reveal>
         </section>
       )}
     </>

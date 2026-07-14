@@ -319,3 +319,115 @@ p { margin: 0 0 1.1em; }
 .rise-2 { animation-delay: .1s; }
 .rise-3 { animation-delay: .2s; }
 @media (prefers-reduced-motion: reduce){ .rise { animation: none; } html { scroll-behavior: auto; } }
+
+/* ============================================================
+   v3 elevation — motion, richer surfaces, new components
+   ============================================================ */
+
+/* ---------- scroll reveal (no-JS safe: visible unless html.js hides it) ---------- */
+.reveal { opacity: 1; }
+html.js .reveal { opacity: 0; transform: translateY(var(--reveal-y, 22px)); transition: opacity .7s var(--ease), transform .7s var(--ease); will-change: opacity, transform; }
+html.js .reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce){ html.js .reveal { opacity: 1 !important; transform: none !important; transition: none !important; } }
+
+/* ---------- header shrink ---------- */
+.utility { transition: height .28s var(--ease), opacity .2s var(--ease); overflow: hidden; }
+.utility.hide { height: 0; opacity: 0; }
+.utility.hide .wide { height: 0; }
+.site-header .bar { transition: height .28s var(--ease); }
+.site-header.shrink { box-shadow: 0 1px 0 rgba(28,23,18,.06), 0 10px 30px rgba(28,23,18,.06); }
+.site-header.shrink .bar { height: 62px; }
+.brand-lock .emblem { transition: width .28s var(--ease), height .28s var(--ease); }
+
+/* scroll cue */
+.scroll-cue { position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); z-index: 3; display: flex; flex-direction: column; align-items: center; gap: .5rem; color: rgba(242,231,212,.7); font-family: var(--sans); font-size: .62rem; letter-spacing: .24em; text-transform: uppercase; }
+.scroll-cue .line { width: 1px; height: 42px; background: linear-gradient(var(--gold-2), transparent); animation: cueDrop 2.2s var(--ease) infinite; transform-origin: top; }
+@keyframes cueDrop { 0%,100% { transform: scaleY(.4); opacity: .4; } 50% { transform: scaleY(1); opacity: 1; } }
+@media (prefers-reduced-motion: reduce){ .scroll-cue .line { animation: none; } }
+
+/* ---------- section number labels ---------- */
+.sec-num { display: inline-flex; align-items: baseline; gap: .7rem; font-family: var(--sans); }
+.sec-num .n { font-family: var(--display); font-size: 1rem; font-weight: 600; color: var(--gold-deep); font-variant-numeric: tabular-nums; }
+.sec-num .n::after { content: ""; display: inline-block; width: 26px; height: 1px; background: var(--gold-2); margin: 0 .1rem .28em .6rem; vertical-align: middle; }
+
+/* ---------- animated stat band ---------- */
+.statband { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: rgba(202,168,105,.22); border-top: 1px solid rgba(202,168,105,.3); border-bottom: 1px solid rgba(202,168,105,.3); }
+.statband .cell { background: transparent; padding: 2rem 1.2rem; text-align: center; }
+.band-ink .statband .cell, .band-forest .statband .cell { color: var(--paper); }
+.statband .big { font-family: var(--display); font-size: clamp(2.1rem, 4vw, 3rem); font-weight: 600; line-height: 1; letter-spacing: -.02em; }
+.band-ink .statband .big { color: var(--gold-2); }
+.statband .cap { font-family: var(--sans); font-size: .7rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; margin-top: .7rem; color: var(--ink-faint); }
+.band-ink .statband .cap { color: #b7ab93; }
+
+/* ---------- foundation bloodline showcase ---------- */
+.found-rail { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.4rem; }
+.found-item { text-align: center; }
+.found-portrait { aspect-ratio: 1; border-radius: 999px; overflow: hidden; border: 2px solid var(--line); background: linear-gradient(160deg,#efe7d6,#e5d9c2); box-shadow: var(--shadow-sm); transition: border-color .2s var(--ease), transform .2s var(--ease); }
+.found-item:hover .found-portrait { border-color: var(--gold); transform: translateY(-3px); }
+.found-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.found-name { font-family: var(--display); font-size: 1.02rem; font-weight: 560; margin-top: .7rem; color: var(--ink); }
+.band-ink .found-name { color: var(--paper); }
+.found-role { font-family: var(--sans); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); margin-top: .15rem; }
+.band-ink .found-role { color: #a99e8d; }
+.found-portrait.ph { display: flex; align-items: center; justify-content: center; color: var(--gold-deep); }
+
+/* ---------- vertical timeline ---------- */
+.timeline { position: relative; margin: 2rem 0; padding-left: 2.2rem; }
+.timeline::before { content: ""; position: absolute; left: 7px; top: .4rem; bottom: .4rem; width: 2px; background: linear-gradient(var(--gold-2), var(--line)); }
+.tl-item { position: relative; padding: 0 0 1.9rem; }
+.tl-item::before { content: ""; position: absolute; left: -2.2rem; top: .35rem; width: 16px; height: 16px; border-radius: 999px; background: var(--paper); border: 3px solid var(--gold); box-shadow: 0 0 0 4px var(--paper); }
+.tl-year { font-family: var(--display); font-size: 1.15rem; font-weight: 600; color: var(--oxblood); }
+.tl-body { font-family: var(--body); color: var(--ink-soft); margin-top: .2rem; max-width: 60ch; }
+
+/* ---------- testimony (Ken's account) ---------- */
+.testimony { position: relative; background: linear-gradient(180deg, var(--card), var(--paper)); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: var(--radius); padding: clamp(1.6rem, 4vw, 3rem) clamp(1.4rem, 4vw, 3.4rem); margin: 2rem 0; box-shadow: var(--shadow-sm); }
+.testimony::before { content: "\201C"; position: absolute; top: -.2em; left: .3em; font-family: var(--display); font-size: 7rem; line-height: 1; color: rgba(177,139,69,.16); }
+.testimony .attrib { display: flex; align-items: center; gap: .8rem; margin-top: 1.4rem; font-family: var(--sans); }
+.testimony .attrib .seal { color: var(--gold-deep); flex: none; }
+.testimony .attrib .who { font-weight: 700; letter-spacing: .04em; color: var(--ink); font-size: .92rem; }
+.testimony .attrib .role { color: var(--ink-faint); font-size: .82rem; }
+
+/* ---------- filter chips ---------- */
+.filters { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.8rem; }
+.filter-chip { font-family: var(--sans); font-size: .74rem; font-weight: 600; letter-spacing: .04em; padding: .5rem .95rem; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink-soft); cursor: pointer; transition: all .15s var(--ease); }
+.filter-chip:hover { border-color: var(--gold); color: var(--ink); }
+.filter-chip.active { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
+/* ---------- pedigree connector polish ---------- */
+.ped-col { position: relative; }
+
+/* ---------- spotlight ---------- */
+.spotlight { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(1.6rem, 4vw, 3.5rem); align-items: center; }
+.spotlight.rev { grid-template-columns: .85fr 1.15fr; }
+.spotlight-img { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-lg); position: relative; background: linear-gradient(160deg,#2a231a,#14100b); }
+.spotlight-img img { width: 100%; display: block; object-fit: contain; max-height: 520px; }
+.spotlight-badge { position: absolute; top: 1rem; left: 1rem; font-family: var(--sans); font-size: .64rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; background: var(--oxblood); color: var(--paper); padding: .35em .7em; border-radius: 2px; z-index: 2; }
+@media (max-width: 800px){ .spotlight, .spotlight.rev { grid-template-columns: 1fr; } }
+
+/* ---------- divider ornament ---------- */
+.ornament { display: flex; align-items: center; justify-content: center; gap: 1.2rem; color: var(--gold); margin: 0 auto; }
+.ornament::before, .ornament::after { content: ""; height: 1px; width: min(120px, 22vw); background: linear-gradient(90deg, transparent, var(--gold-2)); }
+.ornament::after { background: linear-gradient(90deg, var(--gold-2), transparent); }
+
+/* refined dossier caption already present; add hover zoom to dossier photo */
+.dossier-photo-inner img { transition: transform .6s var(--ease); }
+.dossier-photo:hover .dossier-photo-inner img { transform: scale(1.02); }
+
+/* ---------- longform oral history ---------- */
+.prose.longform { font-size: 1.16rem; line-height: 1.72; }
+.prose.longform h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-top: 2.8em; padding-top: 1.6em; border-top: 1px solid var(--line); }
+.prose.longform h2:first-of-type { border-top: 0; padding-top: 0; }
+.prose.longform h3 { color: var(--oxblood); margin-top: 2em; }
+.prose.longform blockquote {
+  background: linear-gradient(180deg, var(--card), var(--paper));
+  border: 1px solid var(--line); border-left: 4px solid var(--gold);
+  border-radius: var(--radius); padding: 1.3rem 1.7rem; margin: 1.8em 0;
+  font-size: 1.5rem; box-shadow: var(--shadow-sm);
+}
+.prose.longform blockquote em { font-style: normal; }
+.prose.longform .timeline { margin-top: 1.5rem; }
+.prose.longform .timeline .tl-body { font-size: 1.02rem; }
+
+/* safety: any code/pre block scrolls within its container, never breaks layout */
+.prose pre { overflow-x: auto; max-width: 100%; background: #241d15; color: #e9dfcd; padding: 1rem 1.2rem; border-radius: var(--radius); font-size: .82rem; }
+.prose :not(pre) > code { background: var(--paper-3); padding: .1em .35em; border-radius: 3px; font-size: .9em; }

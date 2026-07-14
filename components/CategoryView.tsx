@@ -1,11 +1,11 @@
 import { itemsByCategory } from "@/lib/inventory";
 import { CATEGORY_LABELS } from "@/lib/api";
-import { ItemCard } from "@/components/ui";
+import CategoryGrid from "@/components/CategoryGrid";
+import ParallaxHero from "@/components/ParallaxHero";
 
 const HERO_IMG: Record<string, string> = {
   semen: "/img/b956282c799218fe61c82d2cc53dd0b8.jpg",
   embryo: "/img/b77ae7f9fa37ab51f90a23370be8899f.jpg",
-  pregnancy: "/img/656fa51f1a0c2be674514484dac0f035.jpg",
   herd_bull: "/img/02e687328d7592716c5b39e4a081bcef.jpg",
   donor: "/img/1a841561f3ee26b4dea954e2d6a4a860.jpg",
   cattle_for_sale: "/img/9a79d8dbc914e62a8eb60a3d2707002a.jpg",
@@ -19,7 +19,7 @@ export default function CategoryView({ category }: { category: string }) {
   return (
     <>
       <section className="hero hero-tall">
-        {hero && <div className="hero-media"><img src={hero} alt={meta?.plural} /></div>}
+        {hero && <ParallaxHero src={hero} alt={meta?.plural} />}
         <div className="wrap hero-inner">
           <p className="eyebrow rise">Genetics for Sale</p>
           <h1 className="rise rise-2">{meta?.plural}</h1>
@@ -35,12 +35,7 @@ export default function CategoryView({ category }: { category: string }) {
               regularly. <a href="/contact/">Reach out</a> and we'll tell you what's coming.
             </div>
           ) : (
-            <>
-              <p className="card-meta" style={{ marginBottom: "1.4rem" }}>{items.length} listed</p>
-              <div className="grid g3">
-                {items.map((i) => <ItemCard key={i.id} item={i} />)}
-              </div>
-            </>
+            <CategoryGrid items={items} />
           )}
         </div>
       </section>

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Emblem } from "@/components/Emblem";
 
 const LINKS = [
@@ -15,9 +15,18 @@ const LINKS = [
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <>
-      <div className="utility">
+      <div className={`utility${scrolled ? " hide" : ""}`}>
         <div className="wide">
           <div className="u-left">
             <span>Elite Wagyu &amp; Akaushi Seedstock</span>
@@ -30,10 +39,10 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <header className="site-header">
+      <header className={`site-header${scrolled ? " shrink" : ""}`}>
         <div className="wrap bar">
           <Link href="/" className="brand-lock" onClick={() => setOpen(false)}>
-            <Emblem size={50} className="emblem" />
+            <Emblem size={scrolled ? 42 : 50} className="emblem" />
             <span className="brand-word">
               <span className="name">Wagyu Ranch</span>
               <span className="sub">Elite Seedstock</span>
