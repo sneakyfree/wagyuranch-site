@@ -152,8 +152,8 @@ p { margin: 0 0 1.1em; }
 /* ---------- hero ---------- */
 .hero { position: relative; overflow: hidden; background: var(--ink); color: var(--paper); }
 .hero-media { position: absolute; inset: 0; }
-.hero-media img { width: 100%; height: 100%; object-fit: cover; opacity: .62; filter: saturate(.9) contrast(1.03); }
-.hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, rgba(18,14,9,.78) 0%, rgba(18,14,9,.5) 45%, rgba(18,14,9,.28) 100%); }
+.hero-media img { width: 100%; height: 100%; object-fit: cover; opacity: .82; filter: saturate(.96) contrast(1.02); }
+.hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(105deg, rgba(18,14,9,.72) 0%, rgba(18,14,9,.4) 42%, rgba(18,14,9,.12) 78%, rgba(18,14,9,.05) 100%); }
 .hero-media::before { content: ""; position: absolute; inset: 0; z-index: 1; box-shadow: inset 0 -120px 120px -60px rgba(18,14,9,.7); }
 .hero-inner { position: relative; z-index: 2; padding: clamp(6rem, 15vw, 12rem) 0; }
 .hero h1 { color: var(--paper); max-width: 16ch; margin-bottom: .35em; }
@@ -179,9 +179,12 @@ p { margin: 0 0 1.1em; }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--gold-2); }
 .card a { color: inherit; display: flex; flex-direction: column; height: 100%; }
 .card a:hover { color: inherit; }
-.card-media { aspect-ratio: 4/3; overflow: hidden; background: var(--paper-3); position: relative; }
-.card-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s var(--ease); }
-.card:hover .card-media img { transform: scale(1.04); }
+/* Show the FULL animal — contain on a soft mat so heads and tails are never cropped. */
+.card-media { aspect-ratio: 3/2; overflow: hidden; background: linear-gradient(160deg, #efe7d6, #e5d9c2); position: relative; }
+.card-media img { width: 100%; height: 100%; object-fit: contain; transition: transform .5s var(--ease); }
+.card:hover .card-media img { transform: scale(1.03); }
+.card-media .cross-card { aspect-ratio: auto; height: 100%; }
+.pic-tag { position: absolute; top: .6rem; left: .6rem; font-family: var(--sans); font-size: .58rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: .25em .55em; border-radius: 2px; background: rgba(28,23,18,.82); color: #e4d9c2; }
 .card-body { padding: 1.2rem 1.3rem 1.4rem; flex: 1; display: flex; flex-direction: column; }
 .card-body h3 { margin-bottom: .2rem; font-size: 1.35rem; }
 .card-meta { font-family: var(--sans); font-size: .74rem; letter-spacing: .04em; color: var(--ink-faint); }
@@ -240,9 +243,17 @@ p { margin: 0 0 1.1em; }
 
 /* ---------- animal dossier ---------- */
 .dossier-hero { position: relative; background: var(--ink); color: var(--paper); overflow: hidden; }
-.dossier-hero .hero-media img { opacity: .5; }
-.dossier-hero .inner { position: relative; z-index: 2; padding: clamp(4.5rem,10vw,8rem) 0 clamp(3rem,6vw,5rem); }
 .dossier-hero h1 { color: var(--paper); }
+/* Split hero: info panel + the FULL bull photo (never cropped, never darkened). */
+.dossier-grid { display: grid; grid-template-columns: 0.82fr 1.18fr; align-items: center; gap: clamp(1.5rem, 4vw, 3.5rem); padding: clamp(2.5rem,5vw,4rem) 0; }
+.dossier-grid.solo { grid-template-columns: 1fr; }
+.dossier-info { min-width: 0; }
+.dossier-photo { position: relative; }
+.dossier-photo-inner { background: linear-gradient(160deg, #2a231a, #14100b); border: 1px solid rgba(202,168,105,.28); border-radius: var(--radius); padding: 10px; box-shadow: var(--shadow-lg); }
+.dossier-photo img { width: 100%; max-height: 460px; object-fit: contain; border-radius: 2px; display: block; }
+.dossier-photo figcaption { font-family: var(--sans); font-size: .72rem; letter-spacing: .06em; color: #cbbfa8; text-align: center; padding-top: .6rem; }
+@media (max-width: 860px){ .dossier-grid { grid-template-columns: 1fr; } .dossier-photo { order: -1; } }
+.dossier-hero .inner { position: relative; z-index: 2; padding: clamp(4.5rem,10vw,8rem) 0 clamp(3rem,6vw,5rem); }
 .statrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px,1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
 .stat { background: var(--card); padding: 1.1rem 1.2rem; }
 .stat .k { font-family: var(--sans); font-size: .64rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faint); }

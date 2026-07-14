@@ -33,8 +33,11 @@ export default async function ItemPage({ params }: { params: Promise<{ slug: str
 
   const meta = CATEGORY_LABELS[it.category];
   const photos = it.photos || [];
-  const hero = photos[0]?.url;
   const attrs = it.attributes || {};
+  const related = (attrs.related_photos as any[]) || [];
+  // Own photo if we have one; otherwise lead with the sire/dam portrait, clearly captioned.
+  const hero = photos[0]?.url || related[0]?.url;
+  const heroCaption = photos[0]?.url ? null : (related[0]?.alt || null);
   const stats: [string, string][] = [];
   const A = (k: string, v: any) => { if (v) stats.push([k, String(v)]); };
   A("Frame", attrs.frame);
@@ -46,19 +49,26 @@ export default async function ItemPage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <section className="dossier-hero">
-        {hero && <div className="hero-media"><img src={hero} alt={photos[0]?.alt || it.name} /></div>}
-        <div className="wrap inner">
-          <div style={{ fontFamily: "var(--sans)", fontSize: ".74rem", letterSpacing: ".1em", textTransform: "uppercase", color: "#c9bda4", marginBottom: ".9rem" }}>
-            <Link href={`/${CAT_ROUTE[it.category]}/`} style={{ color: "#e4d9c2" }}>{meta?.plural}</Link>
+        <div className={`wrap dossier-grid${hero ? "" : " solo"}`}>
+          <div className="dossier-info">
+            <div style={{ fontFamily: "var(--sans)", fontSize: ".74rem", letterSpacing: ".1em", textTransform: "uppercase", color: "#c9bda4", marginBottom: ".9rem" }}>
+              <Link href={`/${CAT_ROUTE[it.category]}/`} style={{ color: "#e4d9c2" }}>{meta?.plural}</Link>
+            </div>
+            <div className="chips" style={{ marginBottom: ".8rem" }}>
+              <BreedChip breed={it.breed} />
+              {it.css_status === "css" && <span className="chip chip-css">CSS Export</span>}
+              <StatusChip status={it.status} />
+            </div>
+            <h1 style={{ marginBottom: ".2rem" }}>{it.name}</h1>
+            {it.reg_no && <div style={{ fontFamily: "var(--sans)", letterSpacing: ".06em", color: "#cbbfa8" }}>{it.reg_no}{it.tattoo ? ` · Tattoo ${it.tattoo}` : ""}</div>}
+            {it.headline && <p className="lede" style={{ color: "#ece2d0", marginTop: "1.1rem", maxWidth: "52ch" }}>{it.headline}</p>}
           </div>
-          <div className="chips" style={{ marginBottom: ".8rem" }}>
-            <BreedChip breed={it.breed} />
-            {it.css_status === "css" && <span className="chip chip-css">CSS Export</span>}
-            <StatusChip status={it.status} />
-          </div>
-          <h1 style={{ marginBottom: ".2rem" }}>{it.name}</h1>
-          {it.reg_no && <div style={{ fontFamily: "var(--sans)", letterSpacing: ".06em", color: "#cbbfa8" }}>{it.reg_no}{it.tattoo ? ` · Tattoo ${it.tattoo}` : ""}</div>}
-          {it.headline && <p className="lede" style={{ color: "#ece2d0", marginTop: "1.1rem", maxWidth: "58ch" }}>{it.headline}</p>}
+          {hero && (
+            <figure className="dossier-photo" style={{ margin: 0 }}>
+              <div className="dossier-photo-inner"><img src={hero} alt={photos[0]?.alt || heroCaption || it.name} /></div>
+              {heroCaption && <figcaption>{heroCaption}</figcaption>}
+            </figure>
+          )}
         </div>
       </section>
 
@@ -91,26 +101,26 @@ export default async function ItemPage({ params }: { params: Promise<{ slug: str
 
             {photos.length > 1 && (
               <div style={{ marginTop: "2.4rem" }}>
-                <p className="eyebrow">Gallery</p>
-                <Gallery photos={photos} />
+                <p className="eyebrow">More of {it.name}</p>
+                <Gallery photos={photos.slice(1)} />
               </div>
             )}
 
-            {Array.isArray(attrs.related_photos) && attrs.related_photos.length > 0 && (
+            {(() => { const bl = photos[0]?.url ? related : related.slice(1); return bl.length > 0 && (
               <div style={{ marginTop: "2.4rem" }}>
                 <p className="eyebrow">The Bloodline</p>
                 <div className="grid g2">
-                  {attrs.related_photos.map((rp: any, i: number) => (
+                  {bl.map((rp: any, i: number) => (
                     <figure key={i} style={{ margin: 0 }}>
-                      <div style={{ borderRadius: "var(--radius)", overflow: "hidden", boxShadow: "var(--shadow-sm)", border: "1px solid var(--line)" }}>
-                        <img src={rp.url} alt={rp.alt || ""} style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover" }} />
+                      <div style={{ borderRadius: "var(--radius)", overflow: "hidden", boxShadow: "var(--shadow-sm)", border: "1px solid var(--line)", background: "linear-gradient(160deg,#efe7d6,#e5d9c2)" }}>
+                        <img src={rp.url} alt={rp.alt || ""} style={{ width: "100%", aspectRatio: "3/2", objectFit: "contain" }} />
                       </div>
                       <figcaption style={{ fontFamily: "var(--sans)", fontSize: ".8rem", color: "var(--ink-faint)", marginTop: ".5rem" }}>{rp.alt || rp.subject}</figcaption>
                     </figure>
                   ))}
                 </div>
               </div>
-            )}
+            ); })()}
 
             {it.video_ids?.length > 0 && (
               <div style={{ marginTop: "2.4rem" }}>

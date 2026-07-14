@@ -48,12 +48,18 @@ export default async function AnimalPage({ params }: { params: Promise<{ slug: s
   return (
     <>
       <section className="dossier-hero">
-        {heroUrl && <div className="hero-media"><img src={heroUrl} alt={d.name} /></div>}
-        <div className="wrap inner">
-          <p className="eyebrow" style={{ color: "var(--gold-2)" }}>{BREED_LABEL[d.breed] || "Fullblood Wagyu"}</p>
-          <h1 style={{ marginBottom: ".2rem" }}>{d.name}</h1>
-          {d.reg_no && <div style={{ fontFamily: "var(--sans)", letterSpacing: ".06em", color: "#cbbfa8" }}>{d.reg_no}</div>}
-          {d.tagline && <p className="lede" style={{ color: "#ece2d0", marginTop: "1.1rem", maxWidth: "56ch" }}>{d.tagline}</p>}
+        <div className={`wrap dossier-grid${heroUrl ? "" : " solo"}`}>
+          <div className="dossier-info">
+            <p className="eyebrow" style={{ color: "var(--gold-2)" }}>{BREED_LABEL[d.breed] || "Fullblood Wagyu"}</p>
+            <h1 style={{ marginBottom: ".2rem" }}>{d.name}</h1>
+            {d.reg_no && <div style={{ fontFamily: "var(--sans)", letterSpacing: ".06em", color: "#cbbfa8" }}>{d.reg_no}</div>}
+            {d.tagline && <p className="lede" style={{ color: "#ece2d0", marginTop: "1.1rem", maxWidth: "50ch" }}>{d.tagline}</p>}
+          </div>
+          {heroUrl && (
+            <figure className="dossier-photo" style={{ margin: 0 }}>
+              <div className="dossier-photo-inner"><img src={heroUrl} alt={d.name} /></div>
+            </figure>
+          )}
         </div>
       </section>
 

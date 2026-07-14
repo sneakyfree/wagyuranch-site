@@ -99,6 +99,8 @@ function CrossCard({ item }: { item: Item }) {
 export function ItemCard({ item }: { item: Item }) {
   const price = priceFrom(item);
   const photo = item.photos?.[0]?.url;
+  const related = (item.attributes?.related_photos as any[]) || [];
+  const relPhoto = !photo && related[0]?.url ? related[0] : null;  // sire/dam fallback
   const isLot = item.category === "embryo" || item.category === "pregnancy";
   const isRef = item.status === "reference";
 
@@ -108,6 +110,11 @@ export function ItemCard({ item }: { item: Item }) {
         <div className="card-media">
           {photo ? (
             <img src={photo} alt={item.photos[0]?.alt || item.name} />
+          ) : relPhoto ? (
+            <>
+              <img src={relPhoto.url} alt={relPhoto.alt || ""} />
+              <span className="pic-tag">{/sire/i.test(relPhoto.alt) ? "Sire pictured" : /dam/i.test(relPhoto.alt) ? "Dam pictured" : "Bloodline"}</span>
+            </>
           ) : isLot ? (
             <CrossCard item={item} />
           ) : (

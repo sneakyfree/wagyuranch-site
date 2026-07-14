@@ -113,8 +113,8 @@
         "pregnancy_sex": null,
         "photos": [
           {
-            "url": "/img/tajimax-on-cows.jpg",
-            "alt": "Tajimax (FB16684) at four years old grazing among cows"
+            "url": "/img/foundation/FB16684.jpg",
+            "alt": "Tajimax"
           },
           {
             "url": "/img/catalog/tajimax.jpg",
@@ -141,8 +141,8 @@
         "slug": "tajimax",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013856",
-        "updated_at": "2026-07-14T11:28:21.013861"
+        "created_at": "2026-07-14T15:27:19.115790",
+        "updated_at": "2026-07-14T15:27:19.115795"
       },
       {
         "category": "semen",
@@ -262,8 +262,8 @@
         "slug": "ukb-mr-itokitasuru",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013863",
-        "updated_at": "2026-07-14T11:28:21.013864"
+        "created_at": "2026-07-14T15:27:19.115798",
+        "updated_at": "2026-07-14T15:27:19.115799"
       },
       {
         "category": "semen",
@@ -318,9 +318,9 @@
           "carrier_status": "Carrier Free",
           "related_photos": [
             {
-              "url": "/img/catalog/wr-tottori-special-e124-sire-mazda.jpg",
-              "alt": "Mazda, sire of WR Tottori Special E124",
-              "subject": "sire (Mazda)"
+              "url": "/img/foundation/FB103.jpg",
+              "alt": "Sire · Mazda",
+              "subject": "Sire · Mazda"
             }
           ]
         },
@@ -362,8 +362,8 @@
         "slug": "wr-tottori-special-e124",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013867",
-        "updated_at": "2026-07-14T11:28:21.013868"
+        "created_at": "2026-07-14T15:27:19.115800",
+        "updated_at": "2026-07-14T15:27:19.115801"
       },
       {
         "category": "semen",
@@ -428,9 +428,9 @@
           "carrier_status": "Carrier Free",
           "related_photos": [
             {
-              "url": "/img/catalog/kikuyasu-10x-sire-kikuyasu-400.jpg",
-              "alt": "Kikuyasu 400, sire of Kikuyasu 10X (largest 100% Tajima fullblood ever exported from Japan at 1,980 lbs)",
-              "subject": "sire (Kikuyasu 400)"
+              "url": "/img/foundation/FB2100.jpg",
+              "alt": "Sire · JVP Kikuyasu-400",
+              "subject": "Sire · JVP Kikuyasu-400"
             }
           ]
         },
@@ -493,8 +493,8 @@
         "slug": "kikuyasu-10x",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013870",
-        "updated_at": "2026-07-14T11:28:21.013870"
+        "created_at": "2026-07-14T15:27:19.115802",
+        "updated_at": "2026-07-14T15:27:19.115803"
       },
       {
         "category": "semen",
@@ -563,14 +563,14 @@
           "weight_note": "1700+ lb two-year-old still being collected at Interglobe.",
           "related_photos": [
             {
-              "url": "/img/catalog/tsunami-51b-sire-itomichi.jpg",
-              "alt": "Itomichi 1/2, sire of Tsunami 51B",
-              "subject": "sire (Itomichi 1/2)"
+              "url": "/img/foundation/FB2126.jpg",
+              "alt": "Sire · TF Itomichi 1/2",
+              "subject": "Sire · TF Itomichi 1/2"
             },
             {
               "url": "/img/catalog/tsunami-51b-dam-mizutani-607e.jpg",
               "alt": "Mizutani 607E, dam of Tsunami 51B",
-              "subject": "dam (Mizutani 607E)"
+              "subject": "Mizutani 607E, dam of Tsunami 51B"
             }
           ]
         },
@@ -633,8 +633,8 @@
         "slug": "tsunami-51b",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013872",
-        "updated_at": "2026-07-14T11:28:21.013872"
+        "created_at": "2026-07-14T15:27:19.115804",
+        "updated_at": "2026-07-14T15:27:19.115804"
       },
       {
         "category": "semen",
@@ -703,14 +703,14 @@
           "weight_note": "1700+ lb two-year-old still being collected at Interglobe.",
           "related_photos": [
             {
-              "url": "/img/catalog/tsunami-54b-sire-itomichi.jpg",
-              "alt": "Itomichi 1/2, sire of Tsunami 54B",
-              "subject": "sire (Itomichi 1/2)"
+              "url": "/img/foundation/FB2126.jpg",
+              "alt": "Sire · TF Itomichi 1/2",
+              "subject": "Sire · TF Itomichi 1/2"
             },
             {
               "url": "/img/catalog/tsunami-54b-dam-mizutani-607e.jpg",
               "alt": "Mizutani 607E, dam of Tsunami 54B",
-              "subject": "dam (Mizutani 607E)"
+              "subject": "Mizutani 607E, dam of Tsunami 54B"
             }
           ]
         },
@@ -773,8 +773,8 @@
         "slug": "tsunami-54b",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013873",
-        "updated_at": "2026-07-14T11:28:21.013874"
+        "created_at": "2026-07-14T15:27:19.115805",
+        "updated_at": "2026-07-14T15:27:19.115806"
       },
       {
         "category": "semen",
@@ -839,7 +839,14 @@
         "dam_name": "Mizukura 17W",
         "dam_reg": "FB12171",
         "attributes": {
-          "strain_notes": "Takazakura (grandson of Yasufuku 930) + Kenhanafuji + full sister to Shigeshigetani, amplified by Itomichi 1/2 growth."
+          "strain_notes": "Takazakura (grandson of Yasufuku 930) + Kenhanafuji + full sister to Shigeshigetani, amplified by Itomichi 1/2 growth.",
+          "related_photos": [
+            {
+              "url": "/img/foundation/FB2126.jpg",
+              "alt": "Sire · TF Itomichi 1/2",
+              "subject": "Sire · TF Itomichi 1/2"
+            }
+          ]
         },
         "css_status": "css",
         "export_regions": [
@@ -900,8 +907,8 @@
         "slug": "itozakahana-52b",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013874",
-        "updated_at": "2026-07-14T11:28:21.013875"
+        "created_at": "2026-07-14T15:27:19.115807",
+        "updated_at": "2026-07-14T15:27:19.115808"
       },
       {
         "category": "semen",
@@ -971,7 +978,7 @@
             {
               "url": "/img/catalog/dai-6-seizanatani-53b-sire-kitaseki.jpg",
               "alt": "UKB Dai 6 Kitaseki, sire of Dai 6 Seizanatani 53B",
-              "subject": "sire (UKB Dai 6 Kitaseki)"
+              "subject": "UKB Dai 6 Kitaseki, sire of Dai 6 Seizanatani 53B"
             }
           ]
         },
@@ -1034,8 +1041,8 @@
         "slug": "dai-6-seizanatani-53b",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013876",
-        "updated_at": "2026-07-14T11:28:21.013876"
+        "created_at": "2026-07-14T15:27:19.115809",
+        "updated_at": "2026-07-14T15:27:19.115809"
       },
       {
         "category": "semen",
@@ -1103,7 +1110,7 @@
             {
               "url": "/img/catalog/hanasolo-64c-sire-lmr-toshiro.jpg",
               "alt": "LMR Toshiro, sire of Hanasolo 64C",
-              "subject": "sire (LMR Toshiro)"
+              "subject": "LMR Toshiro, sire of Hanasolo 64C"
             }
           ]
         },
@@ -1139,8 +1146,8 @@
         "slug": "hanasolo-64c",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013877",
-        "updated_at": "2026-07-14T11:28:21.013878"
+        "created_at": "2026-07-14T15:27:19.115810",
+        "updated_at": "2026-07-14T15:27:19.115811"
       },
       {
         "category": "semen",
@@ -1242,8 +1249,8 @@
         "slug": "chr-kikutsuru-doi-624a",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013879",
-        "updated_at": "2026-07-14T11:28:21.013879"
+        "created_at": "2026-07-14T15:27:19.115811",
+        "updated_at": "2026-07-14T15:27:19.115812"
       },
       {
         "category": "semen",
@@ -1305,14 +1312,14 @@
           "carrier_status": "Carrier Free",
           "related_photos": [
             {
-              "url": "/img/catalog/wr-tottori-nashi-e113-sire-mazda.jpg",
-              "alt": "Mazda, sire of WR Tottori Nashi E113",
-              "subject": "sire (Mazda)"
+              "url": "/img/foundation/FB103.jpg",
+              "alt": "Sire · Mazda",
+              "subject": "Sire · Mazda"
             },
             {
               "url": "/img/catalog/wr-tottori-nashi-e113-dam-nanashi.jpg",
               "alt": "Nanashi, dam of WR Tottori Nashi E113",
-              "subject": "dam (Nanashi)"
+              "subject": "Nanashi, dam of WR Tottori Nashi E113"
             }
           ]
         },
@@ -1348,8 +1355,8 @@
         "slug": "wr-tottori-nashi-e113",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013880",
-        "updated_at": "2026-07-14T11:28:21.013881"
+        "created_at": "2026-07-14T15:27:19.115813",
+        "updated_at": "2026-07-14T15:27:19.115813"
       },
       {
         "category": "semen",
@@ -1417,14 +1424,14 @@
           "carrier_status": "F-11 Carrier",
           "related_photos": [
             {
-              "url": "/img/catalog/wr-shige-tanisa-hime-d33-sire-shigefuku.jpg",
-              "alt": "Shigefuku J1822, sire of WR Shige Tanisa Hime D33",
-              "subject": "sire (Shigefuku J1822)"
+              "url": "/img/foundation/FB6538.jpg",
+              "alt": "Sire · Shigefuku J1822",
+              "subject": "Sire · Shigefuku J1822"
             },
             {
               "url": "/img/catalog/wr-shige-tanisa-hime-d33-dam-chisahime-208.jpg",
               "alt": "UKB JVP Chisahime 208, dam of WR Shige Tanisa Hime D33",
-              "subject": "dam (UKB JVP Chisahime 208)"
+              "subject": "UKB JVP Chisahime 208, dam of WR Shige Tanisa Hime D33"
             }
           ]
         },
@@ -1460,8 +1467,8 @@
         "slug": "wr-shige-tanisa-hime-d33",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013882",
-        "updated_at": "2026-07-14T11:28:21.013882"
+        "created_at": "2026-07-14T15:27:19.115814",
+        "updated_at": "2026-07-14T15:27:19.115815"
       },
       {
         "category": "semen",
@@ -1526,14 +1533,14 @@
           "carrier_status": "Carrier Free",
           "related_photos": [
             {
-              "url": "/img/catalog/wr-kiku-tanisa-hime-d36-sire-kikuyasu-400.jpg",
-              "alt": "JVP Kikuyasu-400, sire of WR Kiku Tanisa Hime D36",
-              "subject": "sire (JVP Kikuyasu-400)"
+              "url": "/img/foundation/FB2100.jpg",
+              "alt": "Sire · JVP Kikuyasu-400",
+              "subject": "Sire · JVP Kikuyasu-400"
             },
             {
               "url": "/img/catalog/wr-kiku-tanisa-hime-d36-dam-chisahime-208.jpg",
               "alt": "UKB JVP Chisahime 208, dam of WR Kiku Tanisa Hime D36",
-              "subject": "dam (UKB JVP Chisahime 208)"
+              "subject": "UKB JVP Chisahime 208, dam of WR Kiku Tanisa Hime D36"
             }
           ]
         },
@@ -1569,8 +1576,8 @@
         "slug": "wr-kiku-tanisa-hime-d36",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013883",
-        "updated_at": "2026-07-14T11:28:21.013883"
+        "created_at": "2026-07-14T15:27:19.115816",
+        "updated_at": "2026-07-14T15:27:19.115816"
       },
       {
         "category": "semen",
@@ -1629,9 +1636,9 @@
           "carrier_status": "CHS Carrier",
           "related_photos": [
             {
-              "url": "/img/catalog/wr-mazda-back-in-black-e125-et-sire-mazda.jpg",
-              "alt": "Mazda, sire of WR Mazda Back in Black E125 ET",
-              "subject": "sire (Mazda)"
+              "url": "/img/foundation/FB103.jpg",
+              "alt": "Sire · Mazda",
+              "subject": "Sire · Mazda"
             }
           ]
         },
@@ -1667,8 +1674,8 @@
         "slug": "wr-mazda-back-in-black-e125-et",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013885",
-        "updated_at": "2026-07-14T11:28:21.013886"
+        "created_at": "2026-07-14T15:27:19.115817",
+        "updated_at": "2026-07-14T15:27:19.115817"
       },
       {
         "category": "semen",
@@ -1726,14 +1733,9 @@
           "carrier_status": "F-11 Carrier",
           "related_photos": [
             {
-              "url": "/img/catalog/wr-mazda-tanisa-hime-e121-sire-mazda.jpg",
-              "alt": "Mazda, sire of WR Mazda Tanisa Hime E121",
-              "subject": "sire (Mazda)"
-            },
-            {
-              "url": "/img/catalog/wr-mazda-tanisa-hime-e121-dam-chisahime-208.jpg",
-              "alt": "UKB JVP Chisahime 208, dam of WR Mazda Tanisa Hime E121",
-              "subject": "dam (UKB JVP Chisahime 208)"
+              "url": "/img/foundation/FB103.jpg",
+              "alt": "Sire · Mazda",
+              "subject": "Sire · Mazda"
             }
           ]
         },
@@ -1769,8 +1771,8 @@
         "slug": "wr-mazda-tanisa-hime-e121",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013887",
-        "updated_at": "2026-07-14T11:28:21.013887"
+        "created_at": "2026-07-14T15:27:19.115818",
+        "updated_at": "2026-07-14T15:27:19.115819"
       },
       {
         "category": "semen",
@@ -1842,7 +1844,7 @@
             {
               "url": "/img/catalog/umezuru-doi-58b-dam-nanashi.jpg",
               "alt": "Nanashi, dam of Umezuru Doi 58B",
-              "subject": "dam (Nanashi) -- the WSI Umemaru sire photo on this page could not be extracted cleanly"
+              "subject": "Nanashi, dam of Umezuru Doi 58B"
             }
           ]
         },
@@ -1905,8 +1907,8 @@
         "slug": "umezuru-doi-58b",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013888",
-        "updated_at": "2026-07-14T11:28:21.013889"
+        "created_at": "2026-07-14T15:27:19.115820",
+        "updated_at": "2026-07-14T15:27:19.115820"
       },
       {
         "category": "semen",
@@ -2029,8 +2031,8 @@
         "slug": "esf-barr-sanjirou-4p-042-147",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013890",
-        "updated_at": "2026-07-14T11:28:21.013890"
+        "created_at": "2026-07-14T15:27:19.115821",
+        "updated_at": "2026-07-14T15:27:19.115821"
       },
       {
         "category": "semen",
@@ -2111,7 +2113,7 @@
             {
               "url": "/img/catalog/kenhanafuji-brother-kitaguni-jr.jpg",
               "alt": "Kitaguni Jr, 5/8 brother to Kenhanafuji",
-              "subject": "relative (Kitaguni Jr, 5/8 brother)"
+              "subject": "Kitaguni Jr, 5/8 brother to Kenhanafuji"
             }
           ]
         },
@@ -2139,8 +2141,8 @@
         "pregnancy_sex": null,
         "photos": [
           {
-            "url": "/img/kenhanafuji-ref-a.jpg",
-            "alt": "Kenhanafuji reference photo"
+            "url": "/img/foundation/FB2461.jpg",
+            "alt": "Kenhanafuji"
           }
         ],
         "video_ids": [
@@ -2154,8 +2156,8 @@
         "slug": "kenhanafuji",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013891",
-        "updated_at": "2026-07-14T11:28:21.013891"
+        "created_at": "2026-07-14T15:27:19.115822",
+        "updated_at": "2026-07-14T15:27:19.115823"
       },
       {
         "category": "semen",
@@ -2224,7 +2226,7 @@
             {
               "url": "/img/catalog/cf-rueshaw-26w-granddam-homare-j30e.jpg",
               "alt": "JVP MS Homare J 30E, maternal grand dam of CF Rueshaw 26W",
-              "subject": "maternal grand dam (JVP MS Homare J 30E)"
+              "subject": "JVP MS Homare J 30E, maternal grand dam of CF Rueshaw 26W"
             }
           ]
         },
@@ -2272,8 +2274,8 @@
         "slug": "cf-rueshaw-26w",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013892",
-        "updated_at": "2026-07-14T11:28:21.013893"
+        "created_at": "2026-07-14T15:27:19.115824",
+        "updated_at": "2026-07-14T15:27:19.115824"
       },
       {
         "category": "semen",
@@ -2384,8 +2386,8 @@
         "slug": "wcc-chubby-buddy",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013894",
-        "updated_at": "2026-07-14T11:28:21.013894"
+        "created_at": "2026-07-14T15:27:19.115825",
+        "updated_at": "2026-07-14T15:27:19.115826"
       },
       {
         "category": "semen",
@@ -2457,7 +2459,7 @@
             {
               "url": "/img/catalog/sor-big-al-granddam-homare-j30e.jpg",
               "alt": "JVP MS Homare J 30E, maternal grand dam of SOR Big Al",
-              "subject": "maternal grand dam (JVP MS Homare J 30E)"
+              "subject": "JVP MS Homare J 30E, maternal grand dam of SOR Big Al"
             }
           ]
         },
@@ -2525,8 +2527,8 @@
         "slug": "sor-big-al",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013895",
-        "updated_at": "2026-07-14T11:28:21.013895"
+        "created_at": "2026-07-14T15:27:19.115827",
+        "updated_at": "2026-07-14T15:27:19.115827"
       },
       {
         "category": "semen",
@@ -2635,8 +2637,8 @@
         "slug": "jc-rueshaw-90",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013896",
-        "updated_at": "2026-07-14T11:28:21.013897"
+        "created_at": "2026-07-14T15:27:19.115828",
+        "updated_at": "2026-07-14T15:27:19.115829"
       },
       {
         "category": "semen",
@@ -2751,8 +2753,8 @@
         "slug": "hb-big-al-502",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.013898",
-        "updated_at": "2026-07-14T11:28:21.013898"
+        "created_at": "2026-07-14T15:27:19.115830",
+        "updated_at": "2026-07-14T15:27:19.115830"
       }
     ],
     "embryo": [
@@ -2802,8 +2804,8 @@
         "slug": "esf-yasufuku-ii-n-0624-0-itomoritaka-j2703",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017035",
-        "updated_at": "2026-07-14T11:28:21.017038"
+        "created_at": "2026-07-14T15:27:19.118284",
+        "updated_at": "2026-07-14T15:27:19.118286"
       },
       {
         "category": "embryo",
@@ -2851,8 +2853,8 @@
         "slug": "esf-yasufuku-ii-n-0624-0-kenhanafuji",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017041",
-        "updated_at": "2026-07-14T11:28:21.017042"
+        "created_at": "2026-07-14T15:27:19.118289",
+        "updated_at": "2026-07-14T15:27:19.118289"
       },
       {
         "category": "embryo",
@@ -2900,8 +2902,8 @@
         "slug": "esf-yasufuku-ii-n-0624-0-jvp-kikuyasu-400",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017046",
-        "updated_at": "2026-07-14T11:28:21.017047"
+        "created_at": "2026-07-14T15:27:19.118291",
+        "updated_at": "2026-07-14T15:27:19.118291"
       },
       {
         "category": "embryo",
@@ -2949,8 +2951,8 @@
         "slug": "esf-yasufuku-ii-n-0624-0-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017049",
-        "updated_at": "2026-07-14T11:28:21.017050"
+        "created_at": "2026-07-14T15:27:19.118292",
+        "updated_at": "2026-07-14T15:27:19.118293"
       },
       {
         "category": "embryo",
@@ -2998,8 +3000,8 @@
         "slug": "esf-fukutsuru-068-42-68-itomoritaka-j2703",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017052",
-        "updated_at": "2026-07-14T11:28:21.017052"
+        "created_at": "2026-07-14T15:27:19.118294",
+        "updated_at": "2026-07-14T15:27:19.118294"
       },
       {
         "category": "embryo",
@@ -3047,8 +3049,8 @@
         "slug": "esf-fukutsuru-068-42-68-kenhanafuji",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017054",
-        "updated_at": "2026-07-14T11:28:21.017055"
+        "created_at": "2026-07-14T15:27:19.118295",
+        "updated_at": "2026-07-14T15:27:19.118296"
       },
       {
         "category": "embryo",
@@ -3096,8 +3098,8 @@
         "slug": "mizukura-17w-jvp-hiratafuji-402",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017058",
-        "updated_at": "2026-07-14T11:28:21.017058"
+        "created_at": "2026-07-14T15:27:19.118297",
+        "updated_at": "2026-07-14T15:27:19.118298"
       },
       {
         "category": "embryo",
@@ -3145,8 +3147,8 @@
         "slug": "mizukura-17w-kenhanafuji",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017060",
-        "updated_at": "2026-07-14T11:28:21.017061"
+        "created_at": "2026-07-14T15:27:19.118299",
+        "updated_at": "2026-07-14T15:27:19.118299"
       },
       {
         "category": "embryo",
@@ -3194,8 +3196,8 @@
         "slug": "mizukura-17w-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017063",
-        "updated_at": "2026-07-14T11:28:21.017063"
+        "created_at": "2026-07-14T15:27:19.118300",
+        "updated_at": "2026-07-14T15:27:19.118301"
       },
       {
         "category": "embryo",
@@ -3243,8 +3245,8 @@
         "slug": "mizukura-17w-jvp-kikuyasu-400",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017065",
-        "updated_at": "2026-07-14T11:28:21.017065"
+        "created_at": "2026-07-14T15:27:19.118302",
+        "updated_at": "2026-07-14T15:27:19.118302"
       },
       {
         "category": "embryo",
@@ -3292,8 +3294,8 @@
         "slug": "nanashi-jvp-hiratafuji-402",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017067",
-        "updated_at": "2026-07-14T11:28:21.017067"
+        "created_at": "2026-07-14T15:27:19.118304",
+        "updated_at": "2026-07-14T15:27:19.118304"
       },
       {
         "category": "embryo",
@@ -3341,8 +3343,8 @@
         "slug": "nanashi-kenhanafuji",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017069",
-        "updated_at": "2026-07-14T11:28:21.017070"
+        "created_at": "2026-07-14T15:27:19.118305",
+        "updated_at": "2026-07-14T15:27:19.118306"
       },
       {
         "category": "embryo",
@@ -3390,8 +3392,8 @@
         "slug": "nanashi-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017072",
-        "updated_at": "2026-07-14T11:28:21.017073"
+        "created_at": "2026-07-14T15:27:19.118307",
+        "updated_at": "2026-07-14T15:27:19.118307"
       },
       {
         "category": "embryo",
@@ -3439,8 +3441,8 @@
         "slug": "nanashi-jvp-kikuyasu-400",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017075",
-        "updated_at": "2026-07-14T11:28:21.017075"
+        "created_at": "2026-07-14T15:27:19.118308",
+        "updated_at": "2026-07-14T15:27:19.118309"
       },
       {
         "category": "embryo",
@@ -3488,8 +3490,8 @@
         "slug": "ukb-ms-homare-shige-m30e-red-emperor",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017077",
-        "updated_at": "2026-07-14T11:28:21.017077"
+        "created_at": "2026-07-14T15:27:19.118310",
+        "updated_at": "2026-07-14T15:27:19.118310"
       },
       {
         "category": "embryo",
@@ -3537,8 +3539,8 @@
         "slug": "ukb-ms-homare-shige-m30e-tamamaru",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017079",
-        "updated_at": "2026-07-14T11:28:21.017080"
+        "created_at": "2026-07-14T15:27:19.118311",
+        "updated_at": "2026-07-14T15:27:19.118312"
       },
       {
         "category": "embryo",
@@ -3586,8 +3588,8 @@
         "slug": "kohana-kenhanafuji",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017081",
-        "updated_at": "2026-07-14T11:28:21.017082"
+        "created_at": "2026-07-14T15:27:19.118313",
+        "updated_at": "2026-07-14T15:27:19.118313"
       },
       {
         "category": "embryo",
@@ -3635,8 +3637,8 @@
         "slug": "mutsuko-mazda",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017083",
-        "updated_at": "2026-07-14T11:28:21.017084"
+        "created_at": "2026-07-14T15:27:19.118314",
+        "updated_at": "2026-07-14T15:27:19.118314"
       },
       {
         "category": "embryo",
@@ -3684,8 +3686,8 @@
         "slug": "mutsuko-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017086",
-        "updated_at": "2026-07-14T11:28:21.017086"
+        "created_at": "2026-07-14T15:27:19.118316",
+        "updated_at": "2026-07-14T15:27:19.118316"
       },
       {
         "category": "embryo",
@@ -3733,8 +3735,8 @@
         "slug": "meihisha-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017088",
-        "updated_at": "2026-07-14T11:28:21.017088"
+        "created_at": "2026-07-14T15:27:19.118317",
+        "updated_at": "2026-07-14T15:27:19.118317"
       },
       {
         "category": "embryo",
@@ -3782,8 +3784,8 @@
         "slug": "meihi-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017090",
-        "updated_at": "2026-07-14T11:28:21.017090"
+        "created_at": "2026-07-14T15:27:19.118318",
+        "updated_at": "2026-07-14T15:27:19.118319"
       },
       {
         "category": "embryo",
@@ -3831,8 +3833,8 @@
         "slug": "meihi-jvp-kikuyasu-400",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017092",
-        "updated_at": "2026-07-14T11:28:21.017093"
+        "created_at": "2026-07-14T15:27:19.118320",
+        "updated_at": "2026-07-14T15:27:19.118320"
       },
       {
         "category": "embryo",
@@ -3880,8 +3882,8 @@
         "slug": "chr-ms-itozuru-doi-325-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017095",
-        "updated_at": "2026-07-14T11:28:21.017095"
+        "created_at": "2026-07-14T15:27:19.118321",
+        "updated_at": "2026-07-14T15:27:19.118322"
       },
       {
         "category": "embryo",
@@ -3929,8 +3931,8 @@
         "slug": "chr-ms-itozuru-doi-326-shigefuku-j1822",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017097",
-        "updated_at": "2026-07-14T11:28:21.017098"
+        "created_at": "2026-07-14T15:27:19.118323",
+        "updated_at": "2026-07-14T15:27:19.118323"
       },
       {
         "category": "embryo",
@@ -3978,8 +3980,8 @@
         "slug": "chr-ms-itozuru-doi-325-jvp-kikuyasu-400",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017099",
-        "updated_at": "2026-07-14T11:28:21.017100"
+        "created_at": "2026-07-14T15:27:19.118325",
+        "updated_at": "2026-07-14T15:27:19.118325"
       },
       {
         "category": "embryo",
@@ -4027,8 +4029,8 @@
         "slug": "chr-ms-itozuru-doi-326-jvp-kikuyasu-400",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.017102",
-        "updated_at": "2026-07-14T11:28:21.017102"
+        "created_at": "2026-07-14T15:27:19.118326",
+        "updated_at": "2026-07-14T15:27:19.118326"
       }
     ],
     "pregnancy": [
@@ -4072,8 +4074,8 @@
         "slug": "nanashi-kenhanafuji-2",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020976",
-        "updated_at": "2026-07-14T11:28:21.020978"
+        "created_at": "2026-07-14T15:27:19.121439",
+        "updated_at": "2026-07-14T15:27:19.121442"
       },
       {
         "category": "pregnancy",
@@ -4115,8 +4117,8 @@
         "slug": "nanashi-shigefuku-j1822-2",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020980",
-        "updated_at": "2026-07-14T11:28:21.020980"
+        "created_at": "2026-07-14T15:27:19.121444",
+        "updated_at": "2026-07-14T15:27:19.121444"
       },
       {
         "category": "pregnancy",
@@ -4158,8 +4160,8 @@
         "slug": "ukb-ms-homare-shige-m30e-rueshaw",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020982",
-        "updated_at": "2026-07-14T11:28:21.020982"
+        "created_at": "2026-07-14T15:27:19.121446",
+        "updated_at": "2026-07-14T15:27:19.121446"
       },
       {
         "category": "pregnancy",
@@ -4201,8 +4203,8 @@
         "slug": "ukb-ms-homare-shige-m30e-red-emperor-2",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020984",
-        "updated_at": "2026-07-14T11:28:21.020984"
+        "created_at": "2026-07-14T15:27:19.121448",
+        "updated_at": "2026-07-14T15:27:19.121448"
       },
       {
         "category": "pregnancy",
@@ -4244,8 +4246,8 @@
         "slug": "ukb-ms-homare-shige-m30e-tamamaru-2",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020986",
-        "updated_at": "2026-07-14T11:28:21.020986"
+        "created_at": "2026-07-14T15:27:19.121450",
+        "updated_at": "2026-07-14T15:27:19.121450"
       },
       {
         "category": "pregnancy",
@@ -4287,8 +4289,8 @@
         "slug": "kohana-kenhanafuji-2",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020987",
-        "updated_at": "2026-07-14T11:28:21.020988"
+        "created_at": "2026-07-14T15:27:19.121452",
+        "updated_at": "2026-07-14T15:27:19.121452"
       },
       {
         "category": "pregnancy",
@@ -4330,8 +4332,8 @@
         "slug": "mutsuko-mazda-2",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020990",
-        "updated_at": "2026-07-14T11:28:21.020990"
+        "created_at": "2026-07-14T15:27:19.121453",
+        "updated_at": "2026-07-14T15:27:19.121454"
       },
       {
         "category": "pregnancy",
@@ -4373,8 +4375,8 @@
         "slug": "mutsuko-mazda-3",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020992",
-        "updated_at": "2026-07-14T11:28:21.020992"
+        "created_at": "2026-07-14T15:27:19.121455",
+        "updated_at": "2026-07-14T15:27:19.121455"
       },
       {
         "category": "pregnancy",
@@ -4416,8 +4418,8 @@
         "slug": "meihisha-mazda",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020994",
-        "updated_at": "2026-07-14T11:28:21.020994"
+        "created_at": "2026-07-14T15:27:19.121457",
+        "updated_at": "2026-07-14T15:27:19.121457"
       },
       {
         "category": "pregnancy",
@@ -4459,8 +4461,8 @@
         "slug": "meihi-mazda",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020996",
-        "updated_at": "2026-07-14T11:28:21.020996"
+        "created_at": "2026-07-14T15:27:19.121459",
+        "updated_at": "2026-07-14T15:27:19.121459"
       },
       {
         "category": "pregnancy",
@@ -4502,8 +4504,8 @@
         "slug": "chr-ms-itozuru-doi-325-mazda",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020998",
-        "updated_at": "2026-07-14T11:28:21.020998"
+        "created_at": "2026-07-14T15:27:19.121460",
+        "updated_at": "2026-07-14T15:27:19.121461"
       },
       {
         "category": "pregnancy",
@@ -4545,8 +4547,8 @@
         "slug": "chr-ms-itozuru-doi-326-mazda",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.020999",
-        "updated_at": "2026-07-14T11:28:21.021000"
+        "created_at": "2026-07-14T15:27:19.121462",
+        "updated_at": "2026-07-14T15:27:19.121462"
       }
     ],
     "herd_bull": [
@@ -4652,8 +4654,8 @@
         "slug": "esf-barr-sanjirou-4p-042-147-2",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019373",
-        "updated_at": "2026-07-14T11:28:21.019374"
+        "created_at": "2026-07-14T15:27:19.120090",
+        "updated_at": "2026-07-14T15:27:19.120091"
       }
     ],
     "donor": [
@@ -4754,8 +4756,8 @@
         "slug": "mizukura-17w",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019358",
-        "updated_at": "2026-07-14T11:28:21.019361"
+        "created_at": "2026-07-14T15:27:19.120077",
+        "updated_at": "2026-07-14T15:27:19.120079"
       },
       {
         "category": "donor",
@@ -4854,8 +4856,8 @@
         "slug": "esf-yasufuku-ii-n-0624-0",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019362",
-        "updated_at": "2026-07-14T11:28:21.019363"
+        "created_at": "2026-07-14T15:27:19.120080",
+        "updated_at": "2026-07-14T15:27:19.120081"
       },
       {
         "category": "donor",
@@ -4954,8 +4956,8 @@
         "slug": "esf-fukutsuru-068-42-68",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019364",
-        "updated_at": "2026-07-14T11:28:21.019365"
+        "created_at": "2026-07-14T15:27:19.120082",
+        "updated_at": "2026-07-14T15:27:19.120083"
       },
       {
         "category": "donor",
@@ -5050,8 +5052,8 @@
         "slug": "wcc-delicious",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019366",
-        "updated_at": "2026-07-14T11:28:21.019366"
+        "created_at": "2026-07-14T15:27:19.120084",
+        "updated_at": "2026-07-14T15:27:19.120084"
       },
       {
         "category": "donor",
@@ -5123,8 +5125,8 @@
         "slug": "coates-e208",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019368",
-        "updated_at": "2026-07-14T11:28:21.019368"
+        "created_at": "2026-07-14T15:27:19.120085",
+        "updated_at": "2026-07-14T15:27:19.120085"
       },
       {
         "category": "donor",
@@ -5229,8 +5231,8 @@
         "slug": "nanashi",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019369",
-        "updated_at": "2026-07-14T11:28:21.019370"
+        "created_at": "2026-07-14T15:27:19.120087",
+        "updated_at": "2026-07-14T15:27:19.120087"
       },
       {
         "category": "donor",
@@ -5329,8 +5331,8 @@
         "slug": "ukb-ms-homare-shige-m30e",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.019371",
-        "updated_at": "2026-07-14T11:28:21.019372"
+        "created_at": "2026-07-14T15:27:19.120089",
+        "updated_at": "2026-07-14T15:27:19.120089"
       }
     ],
     "cattle_for_sale": [
@@ -5374,8 +5376,8 @@
         "slug": "cattle-for-sale",
         "wagyutank_listing_id": null,
         "wagyutank_pushed_at": null,
-        "created_at": "2026-07-14T11:28:21.022183",
-        "updated_at": "2026-07-14T11:28:21.022185"
+        "created_at": "2026-07-14T15:27:19.122398",
+        "updated_at": "2026-07-14T15:27:19.122400"
       }
     ]
   },
@@ -5492,8 +5494,8 @@
       "pregnancy_sex": null,
       "photos": [
         {
-          "url": "/img/tajimax-on-cows.jpg",
-          "alt": "Tajimax (FB16684) at four years old grazing among cows"
+          "url": "/img/foundation/FB16684.jpg",
+          "alt": "Tajimax"
         },
         {
           "url": "/img/catalog/tajimax.jpg",
@@ -5520,8 +5522,8 @@
       "slug": "tajimax",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013856",
-      "updated_at": "2026-07-14T11:28:21.013861"
+      "created_at": "2026-07-14T15:27:19.115790",
+      "updated_at": "2026-07-14T15:27:19.115795"
     },
     {
       "category": "semen",
@@ -5641,8 +5643,8 @@
       "slug": "ukb-mr-itokitasuru",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013863",
-      "updated_at": "2026-07-14T11:28:21.013864"
+      "created_at": "2026-07-14T15:27:19.115798",
+      "updated_at": "2026-07-14T15:27:19.115799"
     },
     {
       "category": "semen",
@@ -5697,9 +5699,9 @@
         "carrier_status": "Carrier Free",
         "related_photos": [
           {
-            "url": "/img/catalog/wr-tottori-special-e124-sire-mazda.jpg",
-            "alt": "Mazda, sire of WR Tottori Special E124",
-            "subject": "sire (Mazda)"
+            "url": "/img/foundation/FB103.jpg",
+            "alt": "Sire · Mazda",
+            "subject": "Sire · Mazda"
           }
         ]
       },
@@ -5741,8 +5743,8 @@
       "slug": "wr-tottori-special-e124",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013867",
-      "updated_at": "2026-07-14T11:28:21.013868"
+      "created_at": "2026-07-14T15:27:19.115800",
+      "updated_at": "2026-07-14T15:27:19.115801"
     },
     {
       "category": "semen",
@@ -5807,9 +5809,9 @@
         "carrier_status": "Carrier Free",
         "related_photos": [
           {
-            "url": "/img/catalog/kikuyasu-10x-sire-kikuyasu-400.jpg",
-            "alt": "Kikuyasu 400, sire of Kikuyasu 10X (largest 100% Tajima fullblood ever exported from Japan at 1,980 lbs)",
-            "subject": "sire (Kikuyasu 400)"
+            "url": "/img/foundation/FB2100.jpg",
+            "alt": "Sire · JVP Kikuyasu-400",
+            "subject": "Sire · JVP Kikuyasu-400"
           }
         ]
       },
@@ -5872,8 +5874,8 @@
       "slug": "kikuyasu-10x",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013870",
-      "updated_at": "2026-07-14T11:28:21.013870"
+      "created_at": "2026-07-14T15:27:19.115802",
+      "updated_at": "2026-07-14T15:27:19.115803"
     },
     {
       "category": "semen",
@@ -5942,14 +5944,14 @@
         "weight_note": "1700+ lb two-year-old still being collected at Interglobe.",
         "related_photos": [
           {
-            "url": "/img/catalog/tsunami-51b-sire-itomichi.jpg",
-            "alt": "Itomichi 1/2, sire of Tsunami 51B",
-            "subject": "sire (Itomichi 1/2)"
+            "url": "/img/foundation/FB2126.jpg",
+            "alt": "Sire · TF Itomichi 1/2",
+            "subject": "Sire · TF Itomichi 1/2"
           },
           {
             "url": "/img/catalog/tsunami-51b-dam-mizutani-607e.jpg",
             "alt": "Mizutani 607E, dam of Tsunami 51B",
-            "subject": "dam (Mizutani 607E)"
+            "subject": "Mizutani 607E, dam of Tsunami 51B"
           }
         ]
       },
@@ -6012,8 +6014,8 @@
       "slug": "tsunami-51b",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013872",
-      "updated_at": "2026-07-14T11:28:21.013872"
+      "created_at": "2026-07-14T15:27:19.115804",
+      "updated_at": "2026-07-14T15:27:19.115804"
     },
     {
       "category": "semen",
@@ -6082,14 +6084,14 @@
         "weight_note": "1700+ lb two-year-old still being collected at Interglobe.",
         "related_photos": [
           {
-            "url": "/img/catalog/tsunami-54b-sire-itomichi.jpg",
-            "alt": "Itomichi 1/2, sire of Tsunami 54B",
-            "subject": "sire (Itomichi 1/2)"
+            "url": "/img/foundation/FB2126.jpg",
+            "alt": "Sire · TF Itomichi 1/2",
+            "subject": "Sire · TF Itomichi 1/2"
           },
           {
             "url": "/img/catalog/tsunami-54b-dam-mizutani-607e.jpg",
             "alt": "Mizutani 607E, dam of Tsunami 54B",
-            "subject": "dam (Mizutani 607E)"
+            "subject": "Mizutani 607E, dam of Tsunami 54B"
           }
         ]
       },
@@ -6152,8 +6154,8 @@
       "slug": "tsunami-54b",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013873",
-      "updated_at": "2026-07-14T11:28:21.013874"
+      "created_at": "2026-07-14T15:27:19.115805",
+      "updated_at": "2026-07-14T15:27:19.115806"
     },
     {
       "category": "semen",
@@ -6218,7 +6220,14 @@
       "dam_name": "Mizukura 17W",
       "dam_reg": "FB12171",
       "attributes": {
-        "strain_notes": "Takazakura (grandson of Yasufuku 930) + Kenhanafuji + full sister to Shigeshigetani, amplified by Itomichi 1/2 growth."
+        "strain_notes": "Takazakura (grandson of Yasufuku 930) + Kenhanafuji + full sister to Shigeshigetani, amplified by Itomichi 1/2 growth.",
+        "related_photos": [
+          {
+            "url": "/img/foundation/FB2126.jpg",
+            "alt": "Sire · TF Itomichi 1/2",
+            "subject": "Sire · TF Itomichi 1/2"
+          }
+        ]
       },
       "css_status": "css",
       "export_regions": [
@@ -6279,8 +6288,8 @@
       "slug": "itozakahana-52b",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013874",
-      "updated_at": "2026-07-14T11:28:21.013875"
+      "created_at": "2026-07-14T15:27:19.115807",
+      "updated_at": "2026-07-14T15:27:19.115808"
     },
     {
       "category": "semen",
@@ -6350,7 +6359,7 @@
           {
             "url": "/img/catalog/dai-6-seizanatani-53b-sire-kitaseki.jpg",
             "alt": "UKB Dai 6 Kitaseki, sire of Dai 6 Seizanatani 53B",
-            "subject": "sire (UKB Dai 6 Kitaseki)"
+            "subject": "UKB Dai 6 Kitaseki, sire of Dai 6 Seizanatani 53B"
           }
         ]
       },
@@ -6413,8 +6422,8 @@
       "slug": "dai-6-seizanatani-53b",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013876",
-      "updated_at": "2026-07-14T11:28:21.013876"
+      "created_at": "2026-07-14T15:27:19.115809",
+      "updated_at": "2026-07-14T15:27:19.115809"
     },
     {
       "category": "semen",
@@ -6482,7 +6491,7 @@
           {
             "url": "/img/catalog/hanasolo-64c-sire-lmr-toshiro.jpg",
             "alt": "LMR Toshiro, sire of Hanasolo 64C",
-            "subject": "sire (LMR Toshiro)"
+            "subject": "LMR Toshiro, sire of Hanasolo 64C"
           }
         ]
       },
@@ -6518,8 +6527,8 @@
       "slug": "hanasolo-64c",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013877",
-      "updated_at": "2026-07-14T11:28:21.013878"
+      "created_at": "2026-07-14T15:27:19.115810",
+      "updated_at": "2026-07-14T15:27:19.115811"
     },
     {
       "category": "semen",
@@ -6621,8 +6630,8 @@
       "slug": "chr-kikutsuru-doi-624a",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013879",
-      "updated_at": "2026-07-14T11:28:21.013879"
+      "created_at": "2026-07-14T15:27:19.115811",
+      "updated_at": "2026-07-14T15:27:19.115812"
     },
     {
       "category": "semen",
@@ -6684,14 +6693,14 @@
         "carrier_status": "Carrier Free",
         "related_photos": [
           {
-            "url": "/img/catalog/wr-tottori-nashi-e113-sire-mazda.jpg",
-            "alt": "Mazda, sire of WR Tottori Nashi E113",
-            "subject": "sire (Mazda)"
+            "url": "/img/foundation/FB103.jpg",
+            "alt": "Sire · Mazda",
+            "subject": "Sire · Mazda"
           },
           {
             "url": "/img/catalog/wr-tottori-nashi-e113-dam-nanashi.jpg",
             "alt": "Nanashi, dam of WR Tottori Nashi E113",
-            "subject": "dam (Nanashi)"
+            "subject": "Nanashi, dam of WR Tottori Nashi E113"
           }
         ]
       },
@@ -6727,8 +6736,8 @@
       "slug": "wr-tottori-nashi-e113",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013880",
-      "updated_at": "2026-07-14T11:28:21.013881"
+      "created_at": "2026-07-14T15:27:19.115813",
+      "updated_at": "2026-07-14T15:27:19.115813"
     },
     {
       "category": "semen",
@@ -6796,14 +6805,14 @@
         "carrier_status": "F-11 Carrier",
         "related_photos": [
           {
-            "url": "/img/catalog/wr-shige-tanisa-hime-d33-sire-shigefuku.jpg",
-            "alt": "Shigefuku J1822, sire of WR Shige Tanisa Hime D33",
-            "subject": "sire (Shigefuku J1822)"
+            "url": "/img/foundation/FB6538.jpg",
+            "alt": "Sire · Shigefuku J1822",
+            "subject": "Sire · Shigefuku J1822"
           },
           {
             "url": "/img/catalog/wr-shige-tanisa-hime-d33-dam-chisahime-208.jpg",
             "alt": "UKB JVP Chisahime 208, dam of WR Shige Tanisa Hime D33",
-            "subject": "dam (UKB JVP Chisahime 208)"
+            "subject": "UKB JVP Chisahime 208, dam of WR Shige Tanisa Hime D33"
           }
         ]
       },
@@ -6839,8 +6848,8 @@
       "slug": "wr-shige-tanisa-hime-d33",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013882",
-      "updated_at": "2026-07-14T11:28:21.013882"
+      "created_at": "2026-07-14T15:27:19.115814",
+      "updated_at": "2026-07-14T15:27:19.115815"
     },
     {
       "category": "semen",
@@ -6905,14 +6914,14 @@
         "carrier_status": "Carrier Free",
         "related_photos": [
           {
-            "url": "/img/catalog/wr-kiku-tanisa-hime-d36-sire-kikuyasu-400.jpg",
-            "alt": "JVP Kikuyasu-400, sire of WR Kiku Tanisa Hime D36",
-            "subject": "sire (JVP Kikuyasu-400)"
+            "url": "/img/foundation/FB2100.jpg",
+            "alt": "Sire · JVP Kikuyasu-400",
+            "subject": "Sire · JVP Kikuyasu-400"
           },
           {
             "url": "/img/catalog/wr-kiku-tanisa-hime-d36-dam-chisahime-208.jpg",
             "alt": "UKB JVP Chisahime 208, dam of WR Kiku Tanisa Hime D36",
-            "subject": "dam (UKB JVP Chisahime 208)"
+            "subject": "UKB JVP Chisahime 208, dam of WR Kiku Tanisa Hime D36"
           }
         ]
       },
@@ -6948,8 +6957,8 @@
       "slug": "wr-kiku-tanisa-hime-d36",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013883",
-      "updated_at": "2026-07-14T11:28:21.013883"
+      "created_at": "2026-07-14T15:27:19.115816",
+      "updated_at": "2026-07-14T15:27:19.115816"
     },
     {
       "category": "semen",
@@ -7008,9 +7017,9 @@
         "carrier_status": "CHS Carrier",
         "related_photos": [
           {
-            "url": "/img/catalog/wr-mazda-back-in-black-e125-et-sire-mazda.jpg",
-            "alt": "Mazda, sire of WR Mazda Back in Black E125 ET",
-            "subject": "sire (Mazda)"
+            "url": "/img/foundation/FB103.jpg",
+            "alt": "Sire · Mazda",
+            "subject": "Sire · Mazda"
           }
         ]
       },
@@ -7046,8 +7055,8 @@
       "slug": "wr-mazda-back-in-black-e125-et",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013885",
-      "updated_at": "2026-07-14T11:28:21.013886"
+      "created_at": "2026-07-14T15:27:19.115817",
+      "updated_at": "2026-07-14T15:27:19.115817"
     },
     {
       "category": "semen",
@@ -7105,14 +7114,9 @@
         "carrier_status": "F-11 Carrier",
         "related_photos": [
           {
-            "url": "/img/catalog/wr-mazda-tanisa-hime-e121-sire-mazda.jpg",
-            "alt": "Mazda, sire of WR Mazda Tanisa Hime E121",
-            "subject": "sire (Mazda)"
-          },
-          {
-            "url": "/img/catalog/wr-mazda-tanisa-hime-e121-dam-chisahime-208.jpg",
-            "alt": "UKB JVP Chisahime 208, dam of WR Mazda Tanisa Hime E121",
-            "subject": "dam (UKB JVP Chisahime 208)"
+            "url": "/img/foundation/FB103.jpg",
+            "alt": "Sire · Mazda",
+            "subject": "Sire · Mazda"
           }
         ]
       },
@@ -7148,8 +7152,8 @@
       "slug": "wr-mazda-tanisa-hime-e121",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013887",
-      "updated_at": "2026-07-14T11:28:21.013887"
+      "created_at": "2026-07-14T15:27:19.115818",
+      "updated_at": "2026-07-14T15:27:19.115819"
     },
     {
       "category": "semen",
@@ -7221,7 +7225,7 @@
           {
             "url": "/img/catalog/umezuru-doi-58b-dam-nanashi.jpg",
             "alt": "Nanashi, dam of Umezuru Doi 58B",
-            "subject": "dam (Nanashi) -- the WSI Umemaru sire photo on this page could not be extracted cleanly"
+            "subject": "Nanashi, dam of Umezuru Doi 58B"
           }
         ]
       },
@@ -7284,8 +7288,8 @@
       "slug": "umezuru-doi-58b",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013888",
-      "updated_at": "2026-07-14T11:28:21.013889"
+      "created_at": "2026-07-14T15:27:19.115820",
+      "updated_at": "2026-07-14T15:27:19.115820"
     },
     {
       "category": "semen",
@@ -7408,8 +7412,8 @@
       "slug": "esf-barr-sanjirou-4p-042-147",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013890",
-      "updated_at": "2026-07-14T11:28:21.013890"
+      "created_at": "2026-07-14T15:27:19.115821",
+      "updated_at": "2026-07-14T15:27:19.115821"
     },
     {
       "category": "semen",
@@ -7490,7 +7494,7 @@
           {
             "url": "/img/catalog/kenhanafuji-brother-kitaguni-jr.jpg",
             "alt": "Kitaguni Jr, 5/8 brother to Kenhanafuji",
-            "subject": "relative (Kitaguni Jr, 5/8 brother)"
+            "subject": "Kitaguni Jr, 5/8 brother to Kenhanafuji"
           }
         ]
       },
@@ -7518,8 +7522,8 @@
       "pregnancy_sex": null,
       "photos": [
         {
-          "url": "/img/kenhanafuji-ref-a.jpg",
-          "alt": "Kenhanafuji reference photo"
+          "url": "/img/foundation/FB2461.jpg",
+          "alt": "Kenhanafuji"
         }
       ],
       "video_ids": [
@@ -7533,8 +7537,8 @@
       "slug": "kenhanafuji",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013891",
-      "updated_at": "2026-07-14T11:28:21.013891"
+      "created_at": "2026-07-14T15:27:19.115822",
+      "updated_at": "2026-07-14T15:27:19.115823"
     },
     {
       "category": "semen",
@@ -7603,7 +7607,7 @@
           {
             "url": "/img/catalog/cf-rueshaw-26w-granddam-homare-j30e.jpg",
             "alt": "JVP MS Homare J 30E, maternal grand dam of CF Rueshaw 26W",
-            "subject": "maternal grand dam (JVP MS Homare J 30E)"
+            "subject": "JVP MS Homare J 30E, maternal grand dam of CF Rueshaw 26W"
           }
         ]
       },
@@ -7651,8 +7655,8 @@
       "slug": "cf-rueshaw-26w",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013892",
-      "updated_at": "2026-07-14T11:28:21.013893"
+      "created_at": "2026-07-14T15:27:19.115824",
+      "updated_at": "2026-07-14T15:27:19.115824"
     },
     {
       "category": "semen",
@@ -7763,8 +7767,8 @@
       "slug": "wcc-chubby-buddy",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013894",
-      "updated_at": "2026-07-14T11:28:21.013894"
+      "created_at": "2026-07-14T15:27:19.115825",
+      "updated_at": "2026-07-14T15:27:19.115826"
     },
     {
       "category": "semen",
@@ -7836,7 +7840,7 @@
           {
             "url": "/img/catalog/sor-big-al-granddam-homare-j30e.jpg",
             "alt": "JVP MS Homare J 30E, maternal grand dam of SOR Big Al",
-            "subject": "maternal grand dam (JVP MS Homare J 30E)"
+            "subject": "JVP MS Homare J 30E, maternal grand dam of SOR Big Al"
           }
         ]
       },
@@ -7904,8 +7908,8 @@
       "slug": "sor-big-al",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013895",
-      "updated_at": "2026-07-14T11:28:21.013895"
+      "created_at": "2026-07-14T15:27:19.115827",
+      "updated_at": "2026-07-14T15:27:19.115827"
     },
     {
       "category": "semen",
@@ -8014,8 +8018,8 @@
       "slug": "jc-rueshaw-90",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013896",
-      "updated_at": "2026-07-14T11:28:21.013897"
+      "created_at": "2026-07-14T15:27:19.115828",
+      "updated_at": "2026-07-14T15:27:19.115829"
     },
     {
       "category": "semen",
@@ -8130,8 +8134,8 @@
       "slug": "hb-big-al-502",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.013898",
-      "updated_at": "2026-07-14T11:28:21.013898"
+      "created_at": "2026-07-14T15:27:19.115830",
+      "updated_at": "2026-07-14T15:27:19.115830"
     },
     {
       "category": "embryo",
@@ -8179,8 +8183,8 @@
       "slug": "esf-yasufuku-ii-n-0624-0-itomoritaka-j2703",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017035",
-      "updated_at": "2026-07-14T11:28:21.017038"
+      "created_at": "2026-07-14T15:27:19.118284",
+      "updated_at": "2026-07-14T15:27:19.118286"
     },
     {
       "category": "embryo",
@@ -8228,8 +8232,8 @@
       "slug": "esf-yasufuku-ii-n-0624-0-kenhanafuji",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017041",
-      "updated_at": "2026-07-14T11:28:21.017042"
+      "created_at": "2026-07-14T15:27:19.118289",
+      "updated_at": "2026-07-14T15:27:19.118289"
     },
     {
       "category": "embryo",
@@ -8277,8 +8281,8 @@
       "slug": "esf-yasufuku-ii-n-0624-0-jvp-kikuyasu-400",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017046",
-      "updated_at": "2026-07-14T11:28:21.017047"
+      "created_at": "2026-07-14T15:27:19.118291",
+      "updated_at": "2026-07-14T15:27:19.118291"
     },
     {
       "category": "embryo",
@@ -8326,8 +8330,8 @@
       "slug": "esf-yasufuku-ii-n-0624-0-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017049",
-      "updated_at": "2026-07-14T11:28:21.017050"
+      "created_at": "2026-07-14T15:27:19.118292",
+      "updated_at": "2026-07-14T15:27:19.118293"
     },
     {
       "category": "embryo",
@@ -8375,8 +8379,8 @@
       "slug": "esf-fukutsuru-068-42-68-itomoritaka-j2703",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017052",
-      "updated_at": "2026-07-14T11:28:21.017052"
+      "created_at": "2026-07-14T15:27:19.118294",
+      "updated_at": "2026-07-14T15:27:19.118294"
     },
     {
       "category": "embryo",
@@ -8424,8 +8428,8 @@
       "slug": "esf-fukutsuru-068-42-68-kenhanafuji",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017054",
-      "updated_at": "2026-07-14T11:28:21.017055"
+      "created_at": "2026-07-14T15:27:19.118295",
+      "updated_at": "2026-07-14T15:27:19.118296"
     },
     {
       "category": "embryo",
@@ -8473,8 +8477,8 @@
       "slug": "mizukura-17w-jvp-hiratafuji-402",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017058",
-      "updated_at": "2026-07-14T11:28:21.017058"
+      "created_at": "2026-07-14T15:27:19.118297",
+      "updated_at": "2026-07-14T15:27:19.118298"
     },
     {
       "category": "embryo",
@@ -8522,8 +8526,8 @@
       "slug": "mizukura-17w-kenhanafuji",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017060",
-      "updated_at": "2026-07-14T11:28:21.017061"
+      "created_at": "2026-07-14T15:27:19.118299",
+      "updated_at": "2026-07-14T15:27:19.118299"
     },
     {
       "category": "embryo",
@@ -8571,8 +8575,8 @@
       "slug": "mizukura-17w-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017063",
-      "updated_at": "2026-07-14T11:28:21.017063"
+      "created_at": "2026-07-14T15:27:19.118300",
+      "updated_at": "2026-07-14T15:27:19.118301"
     },
     {
       "category": "embryo",
@@ -8620,8 +8624,8 @@
       "slug": "mizukura-17w-jvp-kikuyasu-400",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017065",
-      "updated_at": "2026-07-14T11:28:21.017065"
+      "created_at": "2026-07-14T15:27:19.118302",
+      "updated_at": "2026-07-14T15:27:19.118302"
     },
     {
       "category": "embryo",
@@ -8669,8 +8673,8 @@
       "slug": "nanashi-jvp-hiratafuji-402",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017067",
-      "updated_at": "2026-07-14T11:28:21.017067"
+      "created_at": "2026-07-14T15:27:19.118304",
+      "updated_at": "2026-07-14T15:27:19.118304"
     },
     {
       "category": "embryo",
@@ -8718,8 +8722,8 @@
       "slug": "nanashi-kenhanafuji",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017069",
-      "updated_at": "2026-07-14T11:28:21.017070"
+      "created_at": "2026-07-14T15:27:19.118305",
+      "updated_at": "2026-07-14T15:27:19.118306"
     },
     {
       "category": "embryo",
@@ -8767,8 +8771,8 @@
       "slug": "nanashi-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017072",
-      "updated_at": "2026-07-14T11:28:21.017073"
+      "created_at": "2026-07-14T15:27:19.118307",
+      "updated_at": "2026-07-14T15:27:19.118307"
     },
     {
       "category": "embryo",
@@ -8816,8 +8820,8 @@
       "slug": "nanashi-jvp-kikuyasu-400",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017075",
-      "updated_at": "2026-07-14T11:28:21.017075"
+      "created_at": "2026-07-14T15:27:19.118308",
+      "updated_at": "2026-07-14T15:27:19.118309"
     },
     {
       "category": "embryo",
@@ -8865,8 +8869,8 @@
       "slug": "ukb-ms-homare-shige-m30e-red-emperor",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017077",
-      "updated_at": "2026-07-14T11:28:21.017077"
+      "created_at": "2026-07-14T15:27:19.118310",
+      "updated_at": "2026-07-14T15:27:19.118310"
     },
     {
       "category": "embryo",
@@ -8914,8 +8918,8 @@
       "slug": "ukb-ms-homare-shige-m30e-tamamaru",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017079",
-      "updated_at": "2026-07-14T11:28:21.017080"
+      "created_at": "2026-07-14T15:27:19.118311",
+      "updated_at": "2026-07-14T15:27:19.118312"
     },
     {
       "category": "embryo",
@@ -8963,8 +8967,8 @@
       "slug": "kohana-kenhanafuji",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017081",
-      "updated_at": "2026-07-14T11:28:21.017082"
+      "created_at": "2026-07-14T15:27:19.118313",
+      "updated_at": "2026-07-14T15:27:19.118313"
     },
     {
       "category": "embryo",
@@ -9012,8 +9016,8 @@
       "slug": "mutsuko-mazda",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017083",
-      "updated_at": "2026-07-14T11:28:21.017084"
+      "created_at": "2026-07-14T15:27:19.118314",
+      "updated_at": "2026-07-14T15:27:19.118314"
     },
     {
       "category": "embryo",
@@ -9061,8 +9065,8 @@
       "slug": "mutsuko-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017086",
-      "updated_at": "2026-07-14T11:28:21.017086"
+      "created_at": "2026-07-14T15:27:19.118316",
+      "updated_at": "2026-07-14T15:27:19.118316"
     },
     {
       "category": "embryo",
@@ -9110,8 +9114,8 @@
       "slug": "meihisha-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017088",
-      "updated_at": "2026-07-14T11:28:21.017088"
+      "created_at": "2026-07-14T15:27:19.118317",
+      "updated_at": "2026-07-14T15:27:19.118317"
     },
     {
       "category": "embryo",
@@ -9159,8 +9163,8 @@
       "slug": "meihi-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017090",
-      "updated_at": "2026-07-14T11:28:21.017090"
+      "created_at": "2026-07-14T15:27:19.118318",
+      "updated_at": "2026-07-14T15:27:19.118319"
     },
     {
       "category": "embryo",
@@ -9208,8 +9212,8 @@
       "slug": "meihi-jvp-kikuyasu-400",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017092",
-      "updated_at": "2026-07-14T11:28:21.017093"
+      "created_at": "2026-07-14T15:27:19.118320",
+      "updated_at": "2026-07-14T15:27:19.118320"
     },
     {
       "category": "embryo",
@@ -9257,8 +9261,8 @@
       "slug": "chr-ms-itozuru-doi-325-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017095",
-      "updated_at": "2026-07-14T11:28:21.017095"
+      "created_at": "2026-07-14T15:27:19.118321",
+      "updated_at": "2026-07-14T15:27:19.118322"
     },
     {
       "category": "embryo",
@@ -9306,8 +9310,8 @@
       "slug": "chr-ms-itozuru-doi-326-shigefuku-j1822",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017097",
-      "updated_at": "2026-07-14T11:28:21.017098"
+      "created_at": "2026-07-14T15:27:19.118323",
+      "updated_at": "2026-07-14T15:27:19.118323"
     },
     {
       "category": "embryo",
@@ -9355,8 +9359,8 @@
       "slug": "chr-ms-itozuru-doi-325-jvp-kikuyasu-400",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017099",
-      "updated_at": "2026-07-14T11:28:21.017100"
+      "created_at": "2026-07-14T15:27:19.118325",
+      "updated_at": "2026-07-14T15:27:19.118325"
     },
     {
       "category": "embryo",
@@ -9404,8 +9408,8 @@
       "slug": "chr-ms-itozuru-doi-326-jvp-kikuyasu-400",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.017102",
-      "updated_at": "2026-07-14T11:28:21.017102"
+      "created_at": "2026-07-14T15:27:19.118326",
+      "updated_at": "2026-07-14T15:27:19.118326"
     },
     {
       "category": "pregnancy",
@@ -9447,8 +9451,8 @@
       "slug": "nanashi-kenhanafuji-2",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020976",
-      "updated_at": "2026-07-14T11:28:21.020978"
+      "created_at": "2026-07-14T15:27:19.121439",
+      "updated_at": "2026-07-14T15:27:19.121442"
     },
     {
       "category": "pregnancy",
@@ -9490,8 +9494,8 @@
       "slug": "nanashi-shigefuku-j1822-2",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020980",
-      "updated_at": "2026-07-14T11:28:21.020980"
+      "created_at": "2026-07-14T15:27:19.121444",
+      "updated_at": "2026-07-14T15:27:19.121444"
     },
     {
       "category": "pregnancy",
@@ -9533,8 +9537,8 @@
       "slug": "ukb-ms-homare-shige-m30e-rueshaw",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020982",
-      "updated_at": "2026-07-14T11:28:21.020982"
+      "created_at": "2026-07-14T15:27:19.121446",
+      "updated_at": "2026-07-14T15:27:19.121446"
     },
     {
       "category": "pregnancy",
@@ -9576,8 +9580,8 @@
       "slug": "ukb-ms-homare-shige-m30e-red-emperor-2",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020984",
-      "updated_at": "2026-07-14T11:28:21.020984"
+      "created_at": "2026-07-14T15:27:19.121448",
+      "updated_at": "2026-07-14T15:27:19.121448"
     },
     {
       "category": "pregnancy",
@@ -9619,8 +9623,8 @@
       "slug": "ukb-ms-homare-shige-m30e-tamamaru-2",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020986",
-      "updated_at": "2026-07-14T11:28:21.020986"
+      "created_at": "2026-07-14T15:27:19.121450",
+      "updated_at": "2026-07-14T15:27:19.121450"
     },
     {
       "category": "pregnancy",
@@ -9662,8 +9666,8 @@
       "slug": "kohana-kenhanafuji-2",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020987",
-      "updated_at": "2026-07-14T11:28:21.020988"
+      "created_at": "2026-07-14T15:27:19.121452",
+      "updated_at": "2026-07-14T15:27:19.121452"
     },
     {
       "category": "pregnancy",
@@ -9705,8 +9709,8 @@
       "slug": "mutsuko-mazda-2",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020990",
-      "updated_at": "2026-07-14T11:28:21.020990"
+      "created_at": "2026-07-14T15:27:19.121453",
+      "updated_at": "2026-07-14T15:27:19.121454"
     },
     {
       "category": "pregnancy",
@@ -9748,8 +9752,8 @@
       "slug": "mutsuko-mazda-3",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020992",
-      "updated_at": "2026-07-14T11:28:21.020992"
+      "created_at": "2026-07-14T15:27:19.121455",
+      "updated_at": "2026-07-14T15:27:19.121455"
     },
     {
       "category": "pregnancy",
@@ -9791,8 +9795,8 @@
       "slug": "meihisha-mazda",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020994",
-      "updated_at": "2026-07-14T11:28:21.020994"
+      "created_at": "2026-07-14T15:27:19.121457",
+      "updated_at": "2026-07-14T15:27:19.121457"
     },
     {
       "category": "pregnancy",
@@ -9834,8 +9838,8 @@
       "slug": "meihi-mazda",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020996",
-      "updated_at": "2026-07-14T11:28:21.020996"
+      "created_at": "2026-07-14T15:27:19.121459",
+      "updated_at": "2026-07-14T15:27:19.121459"
     },
     {
       "category": "pregnancy",
@@ -9877,8 +9881,8 @@
       "slug": "chr-ms-itozuru-doi-325-mazda",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020998",
-      "updated_at": "2026-07-14T11:28:21.020998"
+      "created_at": "2026-07-14T15:27:19.121460",
+      "updated_at": "2026-07-14T15:27:19.121461"
     },
     {
       "category": "pregnancy",
@@ -9920,8 +9924,8 @@
       "slug": "chr-ms-itozuru-doi-326-mazda",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.020999",
-      "updated_at": "2026-07-14T11:28:21.021000"
+      "created_at": "2026-07-14T15:27:19.121462",
+      "updated_at": "2026-07-14T15:27:19.121462"
     },
     {
       "category": "herd_bull",
@@ -10025,8 +10029,8 @@
       "slug": "esf-barr-sanjirou-4p-042-147-2",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019373",
-      "updated_at": "2026-07-14T11:28:21.019374"
+      "created_at": "2026-07-14T15:27:19.120090",
+      "updated_at": "2026-07-14T15:27:19.120091"
     },
     {
       "category": "donor",
@@ -10125,8 +10129,8 @@
       "slug": "mizukura-17w",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019358",
-      "updated_at": "2026-07-14T11:28:21.019361"
+      "created_at": "2026-07-14T15:27:19.120077",
+      "updated_at": "2026-07-14T15:27:19.120079"
     },
     {
       "category": "donor",
@@ -10225,8 +10229,8 @@
       "slug": "esf-yasufuku-ii-n-0624-0",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019362",
-      "updated_at": "2026-07-14T11:28:21.019363"
+      "created_at": "2026-07-14T15:27:19.120080",
+      "updated_at": "2026-07-14T15:27:19.120081"
     },
     {
       "category": "donor",
@@ -10325,8 +10329,8 @@
       "slug": "esf-fukutsuru-068-42-68",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019364",
-      "updated_at": "2026-07-14T11:28:21.019365"
+      "created_at": "2026-07-14T15:27:19.120082",
+      "updated_at": "2026-07-14T15:27:19.120083"
     },
     {
       "category": "donor",
@@ -10421,8 +10425,8 @@
       "slug": "wcc-delicious",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019366",
-      "updated_at": "2026-07-14T11:28:21.019366"
+      "created_at": "2026-07-14T15:27:19.120084",
+      "updated_at": "2026-07-14T15:27:19.120084"
     },
     {
       "category": "donor",
@@ -10494,8 +10498,8 @@
       "slug": "coates-e208",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019368",
-      "updated_at": "2026-07-14T11:28:21.019368"
+      "created_at": "2026-07-14T15:27:19.120085",
+      "updated_at": "2026-07-14T15:27:19.120085"
     },
     {
       "category": "donor",
@@ -10600,8 +10604,8 @@
       "slug": "nanashi",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019369",
-      "updated_at": "2026-07-14T11:28:21.019370"
+      "created_at": "2026-07-14T15:27:19.120087",
+      "updated_at": "2026-07-14T15:27:19.120087"
     },
     {
       "category": "donor",
@@ -10700,8 +10704,8 @@
       "slug": "ukb-ms-homare-shige-m30e",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.019371",
-      "updated_at": "2026-07-14T11:28:21.019372"
+      "created_at": "2026-07-14T15:27:19.120089",
+      "updated_at": "2026-07-14T15:27:19.120089"
     },
     {
       "category": "cattle_for_sale",
@@ -10743,8 +10747,8 @@
       "slug": "cattle-for-sale",
       "wagyutank_listing_id": null,
       "wagyutank_pushed_at": null,
-      "created_at": "2026-07-14T11:28:21.022183",
-      "updated_at": "2026-07-14T11:28:21.022185"
+      "created_at": "2026-07-14T15:27:19.122398",
+      "updated_at": "2026-07-14T15:27:19.122400"
     }
   ]
 }

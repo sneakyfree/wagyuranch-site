@@ -10,7 +10,7 @@ breed_composition: "~75% Fujiyoshi / ~25% Kedaka — ZERO Tajima"
 carrier_status: "Carrier Free"
 owner: "Eiji Funatsuki"
 status: "original_import"
-hero: "/img/kitaguni-jr-5-8-brother.jpg"
+hero: "/img/foundation/FB2461.jpg"
 ---
 
 # Kenhanafuji (FB2461) — The International Bull of Mystery

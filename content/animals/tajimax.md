@@ -12,7 +12,7 @@ carrier_status: "Carrier Free"
 tajima_pct: "at least 62.5%"
 weight_note: "2200+ lbs; tipped 2220 lbs 'greyhound skinny' fresh off cows at 4 years old"
 owner: "Whitmer Cattle Co."
-hero: "/img/tajimax-on-cows.jpg"
+hero: "/img/foundation/FB16684.jpg"
 ---
 
 # The Story of Tajimax (FB16684)
