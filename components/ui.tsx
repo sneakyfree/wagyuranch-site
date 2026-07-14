@@ -1,38 +1,36 @@
 import Link from "next/link";
 import type { Item } from "@/lib/api";
 import { priceFrom } from "@/lib/api";
+import { Emblem } from "@/components/Emblem";
 
-export function BreedTag({ breed }: { breed: string }) {
+export function BreedChip({ breed }: { breed: string }) {
   const map: Record<string, [string, string]> = {
-    black: ["tag-black", "Japanese Black"],
-    akaushi: ["tag-akaushi", "Akaushi"],
-    polled: ["tag-polled", "Polled"],
+    black: ["chip-black", "Japanese Black"],
+    akaushi: ["chip-akaushi", "Akaushi"],
+    polled: ["chip-polled", "Polled"],
   };
-  const [cls, label] = map[breed] || ["tag-status", breed];
-  return <span className={`tag ${cls}`}>{label}</span>;
+  const [cls, label] = map[breed] || ["chip-status", breed];
+  return <span className={`chip ${cls}`}>{label}</span>;
 }
 
-export function StatusTag({ status }: { status: string }) {
+export function StatusChip({ status }: { status: string }) {
   const label: Record<string, string> = {
-    available: "Available",
-    coming_soon: "Coming Soon",
-    sold: "Sold",
-    sold_out: "Sold Out",
-    reference: "Reference Sire",
+    available: "Available", coming_soon: "Coming Soon", sold: "Sold",
+    sold_out: "Sold Out", reference: "Reference Sire",
   };
-  const cls = status === "sold" || status === "sold_out" ? "tag-sold" : "tag-status";
-  return <span className={`tag ${cls}`}>{label[status] || status}</span>;
+  if (status === "available") return null;
+  const cls = status === "sold" || status === "sold_out" ? "chip-sold" : "chip-status";
+  return <span className={`chip ${cls}`}>{label[status] || status}</span>;
 }
 
 export function Video({ id, title }: { id: string; title?: string }) {
   return (
-    <div className="video-embed">
+    <div className="video">
       <iframe
         src={`https://www.youtube-nocookie.com/embed/${id}`}
         title={title || "Video"}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        loading="lazy"
+        allowFullScreen loading="lazy"
       />
     </div>
   );
@@ -40,41 +38,28 @@ export function Video({ id, title }: { id: string; title?: string }) {
 
 type Ped = { name?: string; reg?: string; sire?: Ped; dam?: Ped } | null | undefined;
 
-/** Flatten a nested pedigree tree into a 3-generation grid (sire block over dam block). */
-export function Pedigree({ tree }: { tree: Ped }) {
+export function Pedigree({ tree, title = "Pedigree" }: { tree: Ped; title?: string }) {
   if (!tree || (!tree.sire && !tree.dam)) return null;
-  const cell = (n: Ped, cls: string) =>
-    n ? (
-      <div className={`pedigree-cell ${cls}`}>
-        <span className="nm">{n.name || "—"}</span>
-        {n.reg && <span className="rg">{n.reg}</span>}
-      </div>
-    ) : (
-      <div className={`pedigree-cell ${cls}`}>
-        <span className="nm" style={{ color: "var(--ink-faint)" }}>—</span>
-      </div>
-    );
-
-  const side = (root: Ped, cls: string) => (
-    <div className="pedigree-row" style={{ gridTemplateColumns: "1fr 1fr 1fr" }}>
-      {cell(root, cls)}
-      <div style={{ display: "grid" }}>
-        {cell(root?.sire, cls)}
-        {cell(root?.dam, cls)}
-      </div>
-      <div style={{ display: "grid" }}>
-        {cell(root?.sire?.sire, cls)}
-        {cell(root?.sire?.dam, cls)}
-        {cell(root?.dam?.sire, cls)}
-        {cell(root?.dam?.dam, cls)}
-      </div>
+  const cell = (n: Ped, cls: string) => (
+    <div className={`ped-cell ${cls}`}>
+      <span className="nm">{n?.name || "—"}</span>
+      {n?.reg && <span className="rg">{n.reg}</span>}
     </div>
   );
-
+  const side = (root: Ped, cls: string) => (
+    <div className="ped-grid">
+      <div className="ped-col">{cell(root, cls)}</div>
+      <div className="ped-col">{cell(root?.sire, cls)}{cell(root?.dam, cls)}</div>
+      <div className="ped-col">{cell(root?.sire?.sire, cls)}{cell(root?.sire?.dam, cls)}{cell(root?.dam?.sire, cls)}{cell(root?.dam?.dam, cls)}</div>
+    </div>
+  );
   return (
-    <div className="pedigree">
-      {side(tree.sire, "sire")}
-      {side(tree.dam, "dam")}
+    <div className="ped">
+      <div className="ped-title">{title}</div>
+      <div style={{ display: "grid", gap: "10px" }}>
+        {tree.sire && side(tree.sire, "sire")}
+        {tree.dam && side(tree.dam, "dam")}
+      </div>
     </div>
   );
 }
@@ -82,13 +67,14 @@ export function Pedigree({ tree }: { tree: Ped }) {
 export function PriceLadder({ pricing }: { pricing: Item["pricing"] }) {
   if (!pricing?.length) return null;
   return (
-    <div className="priceladder">
+    <div className="ladder">
       {pricing.map((p, i) => {
-        const isCss = /css|export/i.test(p.label);
+        const exp = /css|export/i.test(p.label);
+        const amt = typeof p.price === "number" ? `$${p.price.toLocaleString()}` : "Inquire";
         return (
-          <div key={i} className={`priceladder-row${isCss ? " css" : ""}`}>
-            <span className="lbl">{p.label}</span>
-            <span className="amt">${p.price.toLocaleString()}</span>
+          <div key={i} className={`ladder-row${exp ? " exp" : ""}`}>
+            <span className="l">{p.label}</span>
+            <span className="p">{amt}</span>
           </div>
         );
       })}
@@ -96,46 +82,61 @@ export function PriceLadder({ pricing }: { pricing: Item["pricing"] }) {
   );
 }
 
+/** A lot (embryo/pregnancy) has no individual photo — render a designed sire × dam cross. */
+function CrossCard({ item }: { item: Item }) {
+  const label = item.category === "embryo" ? `Lot ${item.lot_number || ""}`.trim() : "Pregnancy";
+  return (
+    <div className={`cross-card ${item.breed}`}>
+      <span className="x-tag">{label}</span>
+      <span className="x-sire">{item.sire_name || "—"}</span>
+      <span className="x-mult">×</span>
+      <span className="x-dam">{item.dam_name || "—"}</span>
+      <Emblem size={110} className="emblem-wm" />
+    </div>
+  );
+}
+
 export function ItemCard({ item }: { item: Item }) {
   const price = priceFrom(item);
   const photo = item.photos?.[0]?.url;
+  const isLot = item.category === "embryo" || item.category === "pregnancy";
+  const isRef = item.status === "reference";
+
   return (
     <div className="card">
       <Link href={`/item/${item.slug}/`}>
         <div className="card-media">
           {photo ? (
             <img src={photo} alt={item.photos[0]?.alt || item.name} />
+          ) : isLot ? (
+            <CrossCard item={item} />
           ) : (
-            <div
-              style={{
-                width: "100%", height: "100%", display: "flex",
-                alignItems: "center", justifyContent: "center",
-                fontFamily: "var(--display)", color: "var(--ink-faint)",
-                background: "var(--paper-3)", fontSize: "1.1rem",
-              }}
-            >
-              {item.name}
+            <div className="cross-card black">
+              <Emblem size={64} style={{ color: "var(--gold-2)", marginBottom: ".6rem" }} />
+              <span className="x-sire" style={{ fontSize: "1.25rem" }}>{item.name}</span>
+              {item.reg_no && <span className="x-mult" style={{ margin: ".3rem 0 0" }}>{item.reg_no}</span>}
+              <Emblem size={110} className="emblem-wm" />
             </div>
           )}
         </div>
         <div className="card-body">
-          <div style={{ display: "flex", gap: ".4rem", marginBottom: ".5rem", flexWrap: "wrap" }}>
-            <BreedTag breed={item.breed} />
-            {item.css_status === "css" && <span className="tag tag-css">CSS Export</span>}
-            {(item.status === "sold" || item.status === "sold_out") && <StatusTag status={item.status} />}
+          <div className="chips">
+            <BreedChip breed={item.breed} />
+            {item.css_status === "css" && <span className="chip chip-css">CSS Export</span>}
+            <StatusChip status={item.status} />
           </div>
           <h3>{item.name}</h3>
           {item.reg_no && <div className="card-meta">{item.reg_no}</div>}
-          {item.headline && (
-            <p style={{ margin: ".5rem 0 0", fontSize: ".95rem", color: "var(--ink-soft)" }}>
-              {item.headline}
+          {(item.headline || item.description) && (
+            <p className="card-desc">
+              {(item.headline || item.description || "").slice(0, 120)}
+              {(item.headline || item.description || "").length > 120 ? "…" : ""}
             </p>
           )}
-          {price && (
-            <div style={{ marginTop: ".7rem", fontFamily: "var(--display)", color: "var(--oxblood)", fontWeight: 600 }}>
-              from {price}
-            </div>
-          )}
+          <div className="card-foot">
+            <span className="card-price">{price ? `from ${price}` : isRef ? "Reference sire" : "Inquire"}</span>
+            <span className="card-more">View →</span>
+          </div>
         </div>
       </Link>
     </div>

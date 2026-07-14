@@ -25,7 +25,11 @@ export function getDoc(sub: string, slug: string): Doc | null {
   if (!fs.existsSync(file)) return null;
   const raw = fs.readFileSync(file, "utf8");
   const { data, content } = matter(raw);
-  return { slug, data, html: marked.parse(content) as string, raw: content };
+  // The page renders the title in its hero, so drop a leading H1 to avoid a duplicate.
+  const body = content.replace(/^\s*#\s+.+\n+/, "");
+  // Strip internal review annotations (e.g. <!-- FACTCHECK: ... -->) from public HTML.
+  const html = (marked.parse(body) as string).replace(/<!--[\s\S]*?-->/g, "");
+  return { slug, data, html, raw: body };
 }
 
 export function getDocs(sub: string): Doc[] {

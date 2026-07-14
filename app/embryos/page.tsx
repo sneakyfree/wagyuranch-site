@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import CategoryPage from "@/components/CategoryPage";
+import CategoryView from "@/components/CategoryView";
 
 export const metadata: Metadata = {
   title: "Embryos",
-  description: "Embryos from the WagyuRanch seedstock program.",
+  description: "Embryos from the WagyuRanch seedstock program — pedigrees, pricing, and export eligibility.",
 };
 
 export default function Page() {
-  return <CategoryPage category="embryo" />;
+  return <CategoryView category="embryo" />;
 }

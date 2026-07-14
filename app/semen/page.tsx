@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import CategoryPage from "@/components/CategoryPage";
+import CategoryView from "@/components/CategoryView";
 
 export const metadata: Metadata = {
   title: "Semen",
-  description: "Semen from the WagyuRanch seedstock program.",
+  description: "Semen from the WagyuRanch seedstock program — pedigrees, pricing, and export eligibility.",
 };
 
 export default function Page() {
-  return <CategoryPage category="semen" />;
+  return <CategoryView category="semen" />;
 }

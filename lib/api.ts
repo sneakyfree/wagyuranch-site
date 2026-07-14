@@ -67,7 +67,9 @@ export const api = {
 
 export function priceFrom(item: Item): string | null {
   if (!item.pricing?.length) return null;
-  const min = Math.min(...item.pricing.map((p) => p.price).filter((n) => typeof n === "number"));
+  const nums = item.pricing.map((p) => p.price).filter((n): n is number => typeof n === "number");
+  if (!nums.length) return null;
+  const min = Math.min(...nums);
   if (!isFinite(min)) return null;
   return `$${min.toLocaleString()}`;
 }
