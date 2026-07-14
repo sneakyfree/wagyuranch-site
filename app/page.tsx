@@ -6,15 +6,14 @@ import { Emblem } from "@/components/Emblem";
 const HERO = "/img/656fa51f1a0c2be674514484dac0f035.jpg";
 
 const HERO_ANIMALS = [
-  { slug: "tajimax", name: "Tajimax", tag: "FB16684", blurb: "The largest-framed high-Tajima fullblood outside Japan.", img: "/img/tajimax-on-cows.jpg" },
-  { slug: "kenhanafuji", name: "Kenhanafuji", tag: "FB2461", blurb: "The International Bull of Mystery — Kedaka × Shimane, zero Tajima.", img: "/img/kitaguni-jr-5-8-brother.jpg" },
+  { slug: "tajimax", name: "Tajimax", tag: "FB16684", blurb: "The largest-framed high-Tajima fullblood outside Japan.", img: "/img/foundation/FB16684.jpg" },
+  { slug: "kenhanafuji", name: "Kenhanafuji", tag: "FB2461", blurb: "The International Bull of Mystery — Kedaka × Shimane, zero Tajima.", img: "/img/foundation/FB2461.jpg" },
   { slug: "big-al", name: "Big Al", tag: "FB2998", blurb: "The first fullblood Akaushi born outside Japan.", img: "/img/big-al-prime.jpg" },
 ];
 
 const CATEGORIES = [
   { href: "/semen/", label: "Semen", blurb: "Domestic & CSS/EU export-eligible straws." },
   { href: "/embryos/", label: "Embryos", blurb: "Elite fullblood & EU-eligible lots." },
-  { href: "/pregnancies/", label: "Pregnancies", blurb: "Calve out fullbloods on your ranch." },
   { href: "/cattle/", label: "Cattle for Sale", blurb: "Fullblood & F1 bulls, heifers, cows." },
 ];
 

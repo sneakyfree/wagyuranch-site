@@ -28,7 +28,6 @@ export default function Footer() {
           <ul>
             <li><Link href="/semen/">Semen</Link></li>
             <li><Link href="/embryos/">Embryos</Link></li>
-            <li><Link href="/pregnancies/">Pregnancies</Link></li>
             <li><Link href="/cattle/">Cattle for Sale</Link></li>
             <li><Link href="/bull-lease/">Bull Lease</Link></li>
           </ul>

@@ -3,7 +3,7 @@
 import fs from "fs";
 
 const API = process.env.NEXT_PUBLIC_API_BASE || "https://api.wagyuranch.com";
-const CATS = ["semen", "embryo", "pregnancy", "herd_bull", "donor", "cattle_for_sale"];
+const CATS = ["semen", "embryo", "herd_bull", "donor", "cattle_for_sale"];
 
 async function main() {
   const byCategory = {};

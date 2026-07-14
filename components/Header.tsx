@@ -9,7 +9,6 @@ const LINKS = [
   { href: "/herd-bulls/", label: "Herd Bulls" },
   { href: "/donors/", label: "Donors" },
   { href: "/embryos/", label: "Embryos" },
-  { href: "/pregnancies/", label: "Pregnancies" },
   { href: "/cattle/", label: "Cattle" },
   { href: "/bull-lease/", label: "Bull Lease" },
 ];

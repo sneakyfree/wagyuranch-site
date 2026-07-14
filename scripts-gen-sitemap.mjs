@@ -4,7 +4,7 @@ import path from "path";
 const BASE = "https://wagyuranch.com";
 const urls = [
   "/", "/story/", "/about/", "/contact/", "/bull-lease/",
-  "/semen/", "/embryos/", "/pregnancies/", "/herd-bulls/", "/donors/", "/cattle/",
+  "/semen/", "/embryos/", "/herd-bulls/", "/donors/", "/cattle/",
 ];
 
 function slugs(sub) {
