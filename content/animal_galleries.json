@@ -23,10 +23,6 @@
    "alt": "HB Big Al 502, first full-blood Akaushi born outside Japan, in his prime"
   },
   {
-   "url": "/img/dai-10-mitsumaru-sire-of-big-al.jpg",
-   "alt": "Dai 10 Mitsumaru, sire of Big Al"
-  },
-  {
    "url": "/img/big-al-b.jpg",
    "alt": "HB Big Al 502 Akaushi bull"
   }
@@ -61,20 +57,7 @@
    "alt": "Tajimax full-blood Wagyu bull"
   }
  ],
- "polled-genetics": [
-  {
-   "url": "/img/die-hard-weanling.jpg",
-   "alt": "99.61% PB polled Wagyu Die Hard as a weanling"
-  },
-  {
-   "url": "/img/polled-bruce-willis.jpg",
-   "alt": "Polled Wagyu Bruce Willis"
-  },
-  {
-   "url": "/img/polled-genetics-c.jpg",
-   "alt": "Polled Wagyu calf"
-  }
- ],
+ "polled-genetics": [],
  "wcc-chubby-buddy": [
   {
    "url": "/img/chubby-buddy-houston-champion.jpg",

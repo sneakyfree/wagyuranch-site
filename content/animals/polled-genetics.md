@@ -7,7 +7,6 @@ youtube_ids: ["-DkwtqQSzKU", "KSp68EYIOXA", "TywVIH8EKiI", "lMxArdQ-9GQ", "wRnDe
 purebred_pct: "99.61% (Die Hard); 99.41% (Bruce Willis, G.I. Jane)"
 dna_verification: "15 of 16 legs in the 4-generation pedigree DNA-verified unbroken to original imports"
 polled_gene_source: "AB Kushimoto (Snake River Farms / Agribeef donor)"
-hero: "/img/polled-bruce-willis.jpg"
 ---
 
 # Polled Powerhouse Black Wagyu: "Die Hard" & "Bruce Willis"
